@@ -1,0 +1,2584 @@
+Por favor, introduzca su nombre.
+　　*Máximo de 12 caracteres.
+　　　　 ＞
+ABCD EFGH IJKL MNOP  0  ABC 123
+QRST UVWX YZ         1  アイウ
+abcd efgh ijkl mnop  2
+qrst uvwx yz         3  Adelante
+-    '    !    ?     4  Atrás
+                     5  Borrar
+ÀÁÂÃ ÄÅÆÇ ÈÉÊË ÌÍÎÏ  6  Listo
+ÐÑÒÓ ÔÕÖØ ÙÚÛÜ ÝÞ ß  7
+àáâã äåæç èéêë ìíîï  8
+ðñòó ôõöø ùúûü ýþ ÿ  9
+ｱ ｲ ｳ ｴ ｵ  ﾞ ﾟ ｯ ｰ ･    ABC 123
+ｶ ｷ ｸ ｹ ｺ               アイウ
+ｻ ｼ ｽ ｾ ｿ  ｧ ｨ ｩ ｪ ｫ
+ﾀ ﾁ ﾂ ﾃ ﾄ               Adelante
+ﾅ ﾆ ﾇ ﾈ ﾉ  ｬ   ｭ   ｮ    Atrás
+ﾊ ﾋ ﾌ ﾍ ﾎ               Borrar
+ﾏ ﾐ ﾑ ﾒ ﾓ               Listo
+ﾔ   ﾕ   ﾖ  
+ﾗ ﾘ ﾙ ﾚ ﾛ
+ﾜ   ｦ   ﾝ
+ΑΒΓΔ ΕΖΗΘ ΙΚΛΜ          ABC 123
+ΝΞΟΠ ΡΣΤΥ ΦΧΨΩ          アイウ
+αβγδ εζηθ ικλμ          αβγ абв
+νξοπ ρστ υφχψω          Adelante
+ ς                      Atrás
+АБВГД ЕЁЖЗИ ЙКЛМН ОПРСТ Borrar
+УФХЦЧ ШЩЪЫЬ ЭЮЯ         Listo
+абвгд еёжзи йклмн опрст
+уфхцч шщъыь эюя
+
+
+
+
+
+
+#3Dダンジョンメッセージ
+¿Ir al siguiente piso?
+¿Abrir el cofre?
+Has encontrado:
+¡Una trampa!
+¡Recibiste daño!
+¡Fuiste envenenado!
+¡Hay demonios adentro!
+¡El mapa ha desaparecido!
+El equipo 
+a recuperado PS.
+a recuperado PE.
+Sientes una presencia...
+¿Abrir la puerta?
+Manantial
+Tienda
+Refinería
+Salón de terciopelo
+Almacén
+Área de descanso
+Puedes dejar la torre desde aquí.
+¿Quieres dejar la torre?
+¡Gracias a Liftoma
+¡Gracias al Escudo 
+evadiste la trampa!
+El efecto de Liftoma se ha acabado.
+El efecto del Escudo se ha acabado.
+Torre anómala
+
+
+#戦闘時コマンド
+LUCHAR
+ESCAPAR
+NEGOCIAR
+FORMA.
+C. AUTO
+ANALIZAR
+
+ARMA
+A. FUEGO
+PERSONA
+CAMB-PRS
+OBJETO
+DEFENDER
+
+SÍ
+NO
+
+
+
+#戦闘中の説明・注意文
+Empezar el combate.
+Huir.
+Empezar negociación.
+Cambiar formación.
+Empezar combate automatico.
+Analisis de Demonios.
+
+Atacar con el arma equipada.
+Atacar con el arma de fuego equipada.
+Usar habilidad del Persona.
+Cambiar al Persona activo.
+Usar un objeto.
+Defender en este turno.
+
+No hay enemigos en el rango.
+No hay A. Fuego y/o balas equipadas.
+No tienes un Persona de respaldo.
+¿Es esto correcto?
+　　　
+…　　
+……　
+………
+Escape exitoso.
+¡No pudiste escapar!
+Selecciona a quien mover.
+Posicione al personaje seleccionado.
+Este personaje ya está puesto.
+¡No hay nadie en frente!
+¿Es esta formación correcta?
+¿Revertir a la formación anterior?
+
+Afinidad Mala. No puedes usar este Persona.
+No tienes objetos por usar.
+No tienes suficiente PE.
+¿Es este grupo correcto?
+¿Continuar sin cambiar al equipo?
+Estado Alterado: CULPA
+Estado Alterado: INVISIBLE
+Estado Alterado: MARIONETA
+Selecciona al Persona que quieres.
+¡¡Contraataque!!
+Fuiste derrotado...
+RESULTADOS DEL COMBATE
+Distribuye los puntos.
+¿Es esto correcto?
+ESTADO ALTERADO: CEGUERA
+
+
+
+
+No puedes negociar en este momento.
+¡El demonio no negociará!
+Nadie está inconsciente.
+No hay objeto por usar.
+Incapaz de cambiar el Persona.
+No estás en condición para hablar.
+
+
+
+#キャラクター名
+
+Maki
+Ellie
+Nanjo
+Ayase
+Yukino
+Brown
+Mark
+Reiji
+
+
+
+
+
+
+
+
+
+
+#システム
+No puedes equipar. Inventario está lleno.
+Suspender el juego.
+Volver al menú principal.
+¿Es esto correcto?
+En mano     x
+Comprar       x
+Vender        x
+Depositar   x
+Depositar
+Saldo
+Cantidad
+Ahorros
+Selecciona una gema.
+¿Es este nombre correcto?
+Archivo de guardado enviado al  servidor.
+Guardado exitoso.
+－－－－－－－－－－
+VOLUMEN
+VIBRACIÓN
+VELOC. TEXTO
+ANIM. COMBATE
+MINIMAPA
+SÍ
+NO
+NORMAL
+INSTANT.
+ABSOLUTO
+RELATIVO
+Establecer volumen del juego.
+
+Apagar o encender vibración.
+
+Establecer velocidad del texto.
+NORMAL o INSTANT.
+Animaciones de combate.
+Encendidas o apagadas.
+Estilo del minimapa.
+ABSOLUTO:Norte = Arriba RELATIVO:Rota
+EMPEZAR
+CARGAR ARCHIVO
+CONTINUAR
+CÓMO JUGAR
+Visitar sitio web.
+Salir de la aplicación.
+No puede usarse aquí.
+Dejar la mazmorra
+Suspender el juego, y volver
+Volver al menú principal.
+Selecciona la cantidad por depositar.
+Selecciona la cantidad por tomar.
+Selecciona la cantidad por tirar.
+* Una vez uses CONTINUAR,
+la suspension se borrará.
+
+
+
+
+
+
+#モンスター名
+Jahi
+Tlazoltéotl
+Súcubo
+Íncubo
+Hi-no-Enma
+Pairika
+Lilim
+Pesadilla
+Nacht Kobold
+Ganesha
+Xiuhtecuhtli
+Tengu
+Cupido
+Jinn
+Haokah
+Gandharva
+Agathion
+Oberón
+Titania
+Sumizome
+Polisun
+Elfo Oscuro
+Rusalka
+Jack-O'-Lantern
+Jack Frost
+Pixie
+Querubín
+Trono
+Dominación
+Virtud
+Potestad
+Principado
+Arcángel
+Ángel
+Adramelec
+Paimon
+Barbatos
+Berith
+Alastor
+Eligor
+Malphas
+Nisroc
+Ukobach
+Uróboros
+Cuélebre
+Otohime
+Mizuchi
+Naga
+Nozuchi
+Yato-no-Kami
+Fafnir
+Cromm Cruach
+Mushussu
+Kiyohime
+Humbaba
+Guiverno
+Cocatriz
+Ruc
+Aello
+Celaeno
+Ocípete
+Toufei
+Ba
+Hresvelgr
+Alecto
+Tisífone
+Megera
+Muu Shuwuu
+Gdon
+Serket
+Ortro
+Genkurou
+Nekomata
+Cu Sith
+Cait Sith
+Fenrir
+Mangadhai
+Catoblepas
+Escila
+Viuda Negra
+Cath Palug
+Nue
+Afanc
+Rangda
+Dakini
+Salomé
+Aracne
+Iwate
+Sirena
+Yomotsu-Shikome
+Yaksa
+Pulukishi
+Iaksi
+Peckols
+Tokebi
+Hannya
+Ihika
+Ubelluris
+Kwancha
+Duergar
+Kobold
+Leprechaun
+Knocker
+Hecatónquiros
+Girimekhala
+Ráksasa
+Ocelotl
+Sarashina-Hime
+Ogro
+Gremlin
+Miyasudokoro
+Vetal
+Druj
+Yaka
+Carrie
+Enku
+Fuji Musume
+Preta
+Legión
+Kuchisake-onna
+Hanako
+Bukimi
+Dribleador
+Fantasma
+Quicksilver
+Poltergeist
+Zombi pintor
+Zap
+Teke Teke
+Policia zombi
+Enferme. Zombi
+Zombi chica
+Zombi chico
+Sr. Zombi
+Gris
+Sombra
+Doppelgänger
+Anatomía
+Kokkuri
+Yakuza
+Gamberro
+Limo
+María
+El destructor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#アイテム名
+Bisturí
+Estoque
+Cuchillo athame
+Rompemallas
+Sable Lunar
+Washizaki Anti-Demon.
+Kris Naga
+Daga phurba
+Espada solitaria
+Futsu-no-Mitama
+Cortadora de Hierba
+Hoja Spiegel
+Trapeador
+Sable
+Espada de plasma
+Hoja sónica
+Hoja solar
+Claimh Solais
+Fragarach
+Nihil
+Claymore ventisca
+Claymore alborada
+Brionac
+Ame-no-Murakumo
+Lanza Apache
+Corcesca
+Fauchard
+Mard geer
+Lúin Celtchair
+Lanza desecada
+Longinus
+Fang Tian Huaji
+Gáe Bolg
+Báculo demoniaco
+Sombra gemela
+Ame-no-Nuboko
+Hacha de dos manos
+Hacha de guillotina
+Goedendag
+Aplastacráneos
+Colmillo de trueno
+Bardiche
+Hacha alada
+Raydog
+Aplastacerebros
+Corta demonios
+Cuchara decapitadora
+Hacha celestial
+Cuerda de Gimnasia
+Látigo escorpión
+Látigo escarlata
+Zurriago de cola
+Látigo Real
+Azote Invernal
+Flagelo nueve colas
+Cuerda de Heiji
+Cuña espinosa
+Gleipnir
+Medusa plateada
+Látigo cascabel
+Garras de grulla
+Aguja sombría
+Abanico purificador
+Chakram
+Pincho Somai
+Aves gemelas
+Kueiche
+Enkeller
+Wu Huo Shen Yan Shan
+Moneda de justicia
+Rueda parpadeante
+Infinito
+Set de arquería
+Tormenta delta
+Arco providencia
+Pistola de pez
+Stargazer
+Impulso hexa
+Yuan Rong
+Papageno
+Arco del amanecer
+Arco de Hadingus
+Cruz mortal
+Cometa sagrado
+Guantes de boxeo
+Frisker plus
+Garras de hierro
+Guantes megatón
+Guantes eleking
+Garras de adamantium
+Bagh Nakh
+Manos de damasco
+Golpe de oscuridad
+Nudillo Barong
+Mano der. del Diablo
+Mano izq. Divina
+Tokarev
+Glock 26
+M380 Revolver
+HK VP70Z
+Fantasma gris
+Pistola de ataque
+Desert Eagle
+Disparo de dolar
+Thunderer
+Jolly Roger
+Colt de la Muerte
+Peacemaker
+Skorpion
+Ingram
+Steyr TMP
+HK MP5K
+Caza parvadas
+Matafantasmas
+M134 Vulcan
+Vengador
+Tirador lunar
+Cadena loca
+Lluvia infernal
+Ira divina
+Randall Custom
+Mossberg M500
+SPAS-12
+Franchi PA3
+SPAS-15
+MADMAX
+Cañon de trueno
+Cazahombres
+Cañon retorcido
+Destructor doble
+Cañon de Deforesta.
+Fuego de Megido
+M16A2
+AK-47
+SIG-SG550
+Hidrojet
+Steyr AUG A1
+FA-MAS Carbin
+HK G11
+Gepárd M2
+Rifle de pulso M41A
+Mars 133
+Torres gemelas
+Puerta del cielo
+9mm Parabellum
+Cartuchos
+Colmillos de serp.
+Aturdidora
+Tranquilizante
+Matamagos
+Balas circulares
+Balas de cupido
+Balas de plata
+Balas de hierro
+Dead End
+Susurro angelical
+Casco QQ
+Tocado
+Mascara sombría
+Corona frenesí
+Calabaza de hierro
+Casco liviano
+Casco de desfile
+Sombrero de bruja
+Casco de dragón
+Yelmo del amanecer
+Yelmo de Egill
+Yelmo zhuque
+Casco jagd
+Casco tempestad
+Casco César
+Mascara spiegel
+Uniforme escolar
+Chaleco spectra
+Traje de sigilo
+Abrigo séptimo
+TAC-V2
+Armadura dorada
+Armadura de desfile
+Traje de Big Bird
+Alas de ángel
+Armad. del amanecer
+Megingjörð 
+Armadura xuanwu
+Armadura jagd
+Armad. Tempestad
+Armad. de César
+Malla spiegel
+Protector de brazos
+Protector de titanio
+Protector oscuro
+Reina de platino
+Protector inhibidor
+Guantelete
+Protector de desfile
+Guante de león
+Guante demoniaco
+Guante del amanecer
+Guante del trueno
+Guante de Qinglong
+Protector jagd
+Protector tempestad
+Protector de César
+Escudo spiegel
+Zapatos de vestir
+Puntas de ballet
+Zapatos negros
+Rouge Noir
+Hiper Fox
+Rodill. con campanas
+Botas de desfile
+Botas de limo
+Geta fantasma
+Rodill. del amanecer
+Botas de Vidarr
+Rodill. de Baihu
+Rodill. jagd
+Rodill. tempestad
+Rodill. de César
+Beine spiegel
+Medicina
+Bebida extraña
+Perla
+Perla resurrectora
+Balsamo naciente
+Antipétreo
+Antiparalizante
+Antiveneno
+Antienfermedad
+Piedra vital
+Bebida energetica
+Hiranya
+Soma
+Chicle de alma
+Gota pringosa
+Dulce tortuga
+Rueda de plegaria
+Guardia mágica
+Guardia fisíca
+Voz divina
+Escudo
+Campana numerosa
+Campana repulsión
+Bomba millonaria
+Casa demoniaca
+Nido de demonios
+Incienso FUE
+Incienso VIT
+Incienso TÉC
+Incienso AGI
+Incienso SUE
+Incienso PS
+Incienso PE
+Muñeco de escape
+Piedra agidina
+Piedra maragi
+Piedra maragion
+Tabla fuego maligno
+Piedra bufudina
+Piedra mabufu
+Piedra mabufula
+Tabla hielo maligno
+Piedra garudina
+Piedra magaru
+Piedra magarula
+Tabla viento maligno
+Piedra magdina
+Piedra mamagna
+Piedra mamagnus
+Tab. sismica maligna
+Piedra freidina
+Piedra megido
+Piedra megidola
+Tabla sofocante
+Piedra zandina
+Piedra mazan
+Piedra mazanma
+Tabla vendaval
+Piedra gravidina
+Piedra magra
+Piedra magravi
+Tabla muralla
+Piedra ziodina
+Piedra mazio
+Piedra mazionga
+Tabla destello
+Tab. ola oscura
+Tab. poesía necia
+Tab. cuerda negra
+Piedra petrama
+Piedra paralama
+Piedra poisma
+Piedra nervma
+Tabla falsedad
+Tab. Ola tenue
+Tab. Orden sagrado
+Tabla veracidad
+Tab. Cuarto de luna
+Tabla media luna
+Piedra posumudi
+Piedra paraladi
+Piedra petradi
+Piedra nervundi
+Tabla luna llena
+Alejandrita
+Diamante
+Zafiro
+Esmeralda
+Rubí
+Perla
+Tanzanita
+Ópalo
+Amatista
+Granate
+Aguamarina
+Topacio
+Piedra lunar
+Malaquita
+Ónix
+Turquesa
+Cuaderno de Yama
+Parche de Masamune
+Cristal de niflheim
+Durazno de Wu
+Chal de fuego
+Pluma de cuervo
+Talismán Suiten-gu
+Liguero negro
+Pasteles de trueno
+Karura
+Remo de Dul Dauna
+Pieza del General
+Linaje fomor
+¡Solo hazlo!
+Presente
+Tabla blanca
+Diario del fiscal
+Futuro
+Tabla negra
+Tabla azul
+Mascara sin cara
+Tabla carmesí
+Escama de dragón
+Ciervo de peluche
+Contrato del juicio
+Lentes de tortuga
+Runa victoriana
+Ataúd babilonio
+Pasado
+Tambor de bisón
+Agua purificada
+Piedra osetta
+Recurdo de Kolkata
+Banda gast. de tigre
+Collar de olivo
+Buena obra diaria
+Tempestad Maxi
+Lucero del alba
+Avatar
+Muñeco pagano
+Fuego sagrado
+
+
+
+
+
+
+
+
+#魔法･特技名
+Agi
+Agilao
+Agidina
+Maragi
+Maragion
+Maragidina
+Aliento de fuego
+Sublimación carmesí
+Cesación celeste
+Bufu
+Bufula
+Bufudina
+Mabufu
+Mabufula
+Mabufudina
+Aliento de hielo
+Ola poderosa
+Ola gentil
+Garu
+Garula
+Garudina
+Magaru
+Magarula
+Magarudina
+Clicón celestial
+Vortice terrenal
+Magna
+Magnus
+Magdina
+Mamagna
+Mamagnus
+Mamagdina
+Infierno
+Paraiso
+Frei
+Freila
+Freidina
+Megido
+Megidola
+Megidolaon
+Zan
+Zanma
+Zandina
+Mazan
+Mazanma
+Mazandina
+Impacto del este
+Ráfaga del oeste
+Gra
+Gravi
+Gravidina
+Magra
+Magravi
+Magravidina
+Zio
+Zionga
+Ziodina
+Mazio
+Mazionga
+Maziodina
+Explosión Zap
+Implosión Zap
+Eiha
+Baeiha
+Maeiha
+Mudo
+Mudoon
+Mamudo
+Ojo paralizador
+Mirada petrea
+Ojos infernales
+Ojos culpables
+Mirada terrorifica
+Beso apasionado
+Beso del demonio
+Sonrisa malvada
+Toque mortal
+Dormina
+Shibaboo
+Pulinpa
+Dicha
+Marin karin
+Makajam
+Ceguera
+Desplomarse
+Decuperar
+Desanga
+Baile sensual
+Baile feliz
+Hula del infortunio
+Tango disipador
+Vals de la tristeza
+Canción de cuna
+Voz con pánico
+Voz atrapante
+Canción frenesí
+Voz dulce
+Aliento venenoso
+Aliento nebuloso
+Doronpa
+Doroide
+Rapikka
+Balzac
+Mador
+Loboan
+Muertika
+Petrama
+Paralama
+Poisma
+Nervma
+Cúmulo omega
+Negro eterno
+Veredicto oscuro
+Kouha
+Baikouha
+Makouha
+Hama
+Hamaon
+Mahama
+Tarunda
+Rakunda
+Sukunda
+Dekunda
+Tarukaja
+Rakukaja
+Sukukaja
+Makakaja
+Dekaja
+Tetraja
+Makarakarn
+Tetrakarn
+Dia
+Diarama
+Diarahan
+Media
+Mediarama
+Mediarahan
+Patra
+Pen Patra
+Venemudi
+Paraladi
+Petradi
+Nervundi
+Recarm
+Samarecarm
+Recarmdra
+Destello alfa
+Blanco eterno
+Juicio radiante
+Salitoma
+Levitoma
+Alsanga
+Muro de agua
+Muro de fuego
+Muro de cristal
+Muro de acero
+Trampa lunar
+Trampa dulce
+Golpe víbora
+Puño de tambor
+Ataque arcoíris
+Ataque binario
+Último recurso
+Autodestrucción
+Clonar
+Disolvente
+Cincel sagrado
+Mordisco fiero
+Mordisco venenoso
+Mordisco paralizante
+Mordisco viral
+Mordisco pétreo
+Placaje
+Aplastahuesos
+Aplastar
+Golpe celestial
+Asalto megatón
+Picotazo
+Aleteo
+Zambullida
+Garra pinchos
+Garra de la muerte
+Garra salvaje
+Garra venenosa
+Garra paralizante
+Garra viral
+Garra pétrea
+Aguijon venenoso
+Stun Needle
+Acom. de agujas
+Abanico genocida 
+Patada giratoria
+Patada trueno
+Patada rayo
+Tajo gemelo
+Ola de calor
+Portamuerte
+Tajo único 
+Colmillo de lobo
+Corte triple
+Empujón doble
+Remolino dragón
+Lanza llameante
+Apuñalada de ráfaga
+Tajada destructiva
+Rebanador térreo
+Látigo de amor
+Espiral infinito
+Destruye lunas
+Bola rapida
+Clavada oscura
+Bala sónica
+Tiro rapido
+Mil flechas
+Lluvia de flechas
+Puño centelleante
+Puños rabiosos
+Puño mortal
+Tiro único
+Tiro con impulso
+Tiro medio
+Tiro polvoriento
+Tiro largo
+
+
+
+
+
+
+#ペルソナ名
+Lugh
+Hánuman
+Freyr
+Váruna
+Hermóðr
+Cú Chulainn
+Urvashí
+Hurí
+Skuld
+Laksmí
+Verðandi
+Ushás
+Bixia Yuanjun
+Urð
+Hathor
+Satí
+Ame-no-Uzume
+Matsu
+Kali
+Ishtar
+Durga
+Xiwangmu
+Brigid
+Arianrhod
+Mokosh
+Vesta
+Visnú
+Amón-Ra
+Baal
+Odín
+Marduk
+Brahma
+Nuada
+Seimen Kongou
+Indra
+Huherdei Mergen
+Thor
+Takemikazuchi
+Ogma
+Zhong Kui
+Aizen Myoo
+Yama
+Jack O' Lantern
+Jack Frost
+Pixie
+Shiva
+Susanoo
+Qitian Daisheng
+Beidou Xingjun
+Gozu-Tennoh
+Oggun
+Toyotama-hime
+Byakko
+Enbarr
+Taifeng
+Cerbero
+Palas Atenea
+Vaisravana
+Tyr
+Morrigan
+Verethragna
+Macha
+Triglav
+Nemain
+Barbatos
+Mot
+Ankou
+Hel
+Xuanwu
+Anubis
+Lucifer
+Belcebú
+Loki
+Bres
+Amatsu Mikaboshi
+Nyarlathotep
+Jano
+Súcubo
+Lilim
+Garuda
+Zhuque
+Yatagarasu
+Víðópnir
+Bennu
+Vohu Manah
+Satán
+Miguel
+Yamaoka
+Armaiti
+Azrael
+Phaleg
+Niké
+Zhu Yin
+Muchilinda
+Qinglong
+Illuyanka
+Quetzalcoatl
+Kamakura Gongorou
+Narukami
+Tenjiku Tokubei
+
+
+
+
+
+
+
+
+
+#大属性名
+Normal
+Elemento
+Fuerza
+Oscuridad
+Luz
+
+
+
+
+#小属性名
+Normal
+Fuego
+Agua
+Viento
+Tierra
+Electricidad
+Nuclear
+Ráfaga
+Gravedad
+Muerte
+Mental
+Místico
+Maldición
+Expeler
+Rezo
+Bendición
+Milagro
+
+
+#ペルソナ種族名
+Fusión imp.
+MAGO
+SACERDOTISA
+EMPERATRIZ
+EMPERADOR
+HIEROFANTE
+AMANTES
+CARRO
+FUERZA
+ERMITAÑO
+FORTUNA
+JUSTICIA
+AHORCADO
+MUERTE
+TEMPLANZA
+DIABLO
+TORRE
+ESTRELLA
+LUNA
+SOL
+JUICIO
+MUNDO
+LOCO
+
+
+
+
+
+
+#悪魔の種族名
+Noctur.
+Yoma
+Hada
+Divino
+Caído
+Serpie.
+Reptil
+Alado
+Rapaz
+Bestia
+Salvaje
+Fémina
+Bruto
+Jirae
+Jaki
+Pavor
+Ánima
+Corpus
+Fétido
+Karma
+Meta
+Oscuro
+
+
+
+
+
+
+
+#アイテムの種類名
+Espada
+Espadón
+Lanza
+Hacha
+Látigo
+Cuchillo
+Flecha
+Puños
+Pistola
+Fusil
+Escopeta
+Rifle
+Munició.
+Cabeza
+Cuerpo
+Brazos
+Piernas
+Recuper.
+Mazmorra
+Batalla
+Piedra
+Gema
+Tótem
+
+
+
+
+
+
+#コマンドリスト
+OBJETOS
+MAGIA
+ESTADO
+PERSONA
+CARTAS
+FORMACIÓN
+SISTEMA
+GUARDAR
+USAR
+EQUIPAR
+ANALISIS
+CONFIG.
+DEMONIOS
+PERSONA
+
+
+
+
+
+#ステータス項目
+FUE
+VIT
+TÉC
+AGI
+SUE
+
+
+
+
+#ペルソナ種族名(漢字)
+MAGO
+SACERDOTISA
+EMPERATRIZ
+EMPERADOR
+HIEROFANTE
+AMANTES
+CARRO
+FUERZA
+ERMITAÑO
+FORTUNA
+JUSTICIA
+AHORCADO
+MUERTE
+TEMPLANZA
+DIABLO
+TORRE
+ESTRELLA
+LUNA
+SOL
+JUICIO
+MUNDO
+FOOL
+
+
+
+
+
+
+
+#悪魔名(半角)
+Jahi
+Tlazoltéotl
+Súcubo
+Íncubo
+Hi-no-Enma
+Pairika
+Lilim
+Pesadilla
+NachtKobold
+Ganesha
+Xiuhtecuht.
+Tengu
+Cupido
+Jinn
+Haokah
+Gandharva
+Agathion
+Oberón
+Titania
+Sumizome
+Polisun
+Elfo Oscuro
+Rusalka
+JackLantern
+Jack Frost
+Pixie
+Querubín
+Trono
+Dominación
+Virtud
+Potestad
+Principado
+Arcángel
+Ángel
+Adramelec
+Paimon
+Barbatos
+Berith
+Alastor
+Eligor
+Malphas
+Nisroc
+Ukobach
+Uróboros
+Cuélebre
+Otohime
+Mizuchi
+Naga
+Nozuchi
+Yato-no-Ka.
+Fafnir
+CrommCruach
+Mushussu
+Kiyohime
+Humbaba
+Guiverno
+Cocatriz
+Ruc
+Aello
+Celaeno
+Ocípete
+Toufei
+Ba
+Hresvelgr
+Alecto
+Tisífone
+Megaera
+Muu Shuwuu
+Gdon
+Serket
+Ortro
+Genkurou
+Nekomata
+Cu Sith
+Cait Sith
+Fenrir
+Mangadhai
+Catoblepas
+Escila
+Viuda negra
+Cath Palug
+Nue
+Afanc
+Rangda
+Dakini
+Salomé
+Aracne
+Iwate
+Sirena
+Y-Shikome
+Yaksa
+Pulukishi
+Iaksi
+Pickols
+Tokebi
+Hannya
+Ihika
+Ubelluris
+Kwancha
+Duergar
+Kobold
+Leprechaun
+Knocker
+Hecatónqui.
+Girimekhala
+Ráksasa
+Ocelotl
+Sarashina-H
+Ogro
+Gremlin
+Miyasudoko.
+Vetal
+Druj
+Yaka
+Carrie
+Enku
+Fuji Musume
+Preta
+Legión
+Kuchisake-O
+Hanako
+Bukimi
+Dribleador
+Fantasma
+Quicksilver
+Poltergeist
+Z. Pintor
+Zap
+Teketeke
+Pol. Zombi
+Enfer. Zombi
+Zombi chica
+Zombi chico
+Sr. Zombi
+Gris
+Sombra
+Doppelgänger
+Anatomía
+Kokkuri
+Yakuza
+Gamberro
+Limo
+Orgullo
+Gula
+Ira
+Envidia
+Codicia
+Lujuria
+H. de negro
+Agente
+Pol. secreta
+María
+El destructor
+
+
+
+
+
+
+#武器･弾丸の追加効果
+－
+FELIZ
+ATADO
+CONGEL.
+DORMIDO
+PÁNICO
+INFORT.
+PARÁLI.
+SILENCIO
+ENCANTO
+CULPA
+CEGUERA
+TERROR
+VENENO
+ENFERMO
+PARÁLI.
+CAÍDO
+PETRIFI.
+
+#Attack:タイプ
+Único
+Aleato.
+Todos
+－
+
+
+
+
+
+#悪魔性格 + 味方交渉コマンド
+Prudente
+Tonto
+Enérgico
+Tímido
+Alegre
+Triste
+Arrogante
+Dispuesto
+Persuadir
+Invitar
+Burlar
+Cantar
+Suplicar
+Mentir
+Halagar
+Fingir miedo
+Horrorizar
+Tranquilizar
+Cantar
+Invitar
+Sobornar
+Condescender
+Pontificar
+Sarcasmo
+Abusar
+Llorar
+Seducir
+Amenazar
+Molestar
+Regañar
+Persuadir
+Ignorar
+Coquetear
+Charlar
+Bromear
+Asustar
+Bailar
+Mirar
+Burlar
+Alardear
+Ignorar
+Gritar
+Amenazar
+Truco de magia
+
+
+
+
+
+#状態異常
+BUENO
+FELIZ
+PÁNICO
+ENCANTO
+DORMIDO
+SILENCIO
+ATADO
+CONGELADO
+PARALI.
+ATADO
+INFORT.
+CULPA
+PÁNICO
+VENENO
+PIEDRA
+CAÍDO
+PARALI.
+ENFERMO
+INVISIBLE
+MARIONETA
+CONTRATA.
+FURIA
+LOCO
+BESTIA
+
+
+
+
+
+#特性
+Dr:Magia Dé:Físico
+Rs:Fuerza Dé:Elemento
+Rs:Magia
+Dr:Tierra Dé:Ráfaga
+Fu:Elemento Dé:Fuerza
+Rp:A. Fuego Rs:Magia
+Nu:Físico Dé:Fuego
+Nu:A. Fuego Dé:Magia
+Dé:Magia
+Solo magia funciona
+Rs:Magia
+Rs:A. Fuego
+Nu:Físico Rs:A. Fuego
+Dé:Elemento
+Nu:Elemento
+Rs:Casi todo
+Rs:Físico
+Rp:Magia Dé:Lanza
+Rs:Todo
+Nada
+Rp:Fuego Dé:Fuerza
+Rp:Hielo Dé:Fuerza
+Rp:Viento Dé:Fuerza
+Rp:Tierra Dé:Fuerza
+Dr:Elec Dé:Fuerza
+Dr:Nuclear Dé:Fuerza
+Dr:Ráfaga Dé:Fuerza
+Rs:Magia Dé:Fuerza
+Rp:Físico
+Dr:Físico Dé:Magia
+Nu:Viento Dé:A. Fuego
+Rp:Elec. Dé:Elemento
+Rp:Nuclear Dé:Elemento
+Rp:Ráfaga Dé:Elemento
+Rp:Gravedad Dé:Elemento
+Dr:Fuego Dé:Elemento
+Dr:Hielo Dé:Elemento
+Dr:Viento Dé:Elemento
+Dr:Tierra Dé:Elemento
+Dé:Físico Rs:Magia
+Rp:Físico Dé:Magia
+Dr:Físico Dé:Magia
+Rs:Físico Dé:Magia
+Nu:Ráfaga Dé:A. Fuego
+Dé:Físico Rs:Magia
+Dr:Fuego Dé:Hielo
+Rp:Físico Dé:Magia
+Dr:Físico Dé:Magia
+Rp:Magia Dé:Lanza
+Nu:Magia Dé:Físico
+Nu:Arte/Ataq. Dé:Látigo
+Rs:Magia
+Dr:Fuego Dé:Hielo
+Dr:Hielo Dé:Fuego
+Dr:Tierra Dé:Viento
+Dr:Elec. Dé:Nuclear
+Dé:Físico Rs:Magia
+Rp:Físico Dé:Magia
+Dr:Físico Dé:Magia
+Rp:Magia Dé:Lanza
+Nu:Magia Dé:Físico
+Rs:Físico Dé:Magia
+Nu:Arte/Ataq. Dé:Látigo
+Rs:Magia
+Rs:Físico
+
+
+
+
+#魔法説明
+Daño leve de fuego (Un enemigo).
+Daño medio de fuego (Un enemigo).
+Daño grave de fuego (Área).
+Daño leve de fuego (Todos).
+Daño medio de fuego (Todos).
+Daño grave de fuego (Todos).
+Daño medio de fuego (Área).
+Daño medio de fuego (Área).
+Daño medio de fuego (Área).
+Daño leve de hielo (Un enemigo).
+Daño medio de hielo (Un enemigo).
+Daño grave de hielo (Área).
+Daño leve de hielo (Todos).
+Daño medio de hielo (Todos).
+Daño grave de hielo (Todos).
+Daño medio de hielo (Área).
+Daño medio de hielo (Área).
+Daño medio de hielo (Área).
+Daño leve de viento (Un enemigo).
+Daño medio de viento (Un enemigo).
+Daño grave de viento (Área).
+Daño leve de viento (Todos).
+Daño medio de viento (Todos).
+Daño grave de viento (Todos).
+Daño medio de viento (Área).
+Daño medio de viento (Área).
+Daño leve de tierra (Un enemigo).
+Daño medio de tierra (Un enemigo).
+Daño grave de tierra (Área).
+Daño leve de tierra (Todos).
+Daño medio de tierra (Todos).
+Daño grave de tierra (Todos).
+Daño medio de tierra (Área).
+Daño medio de tierra (Área).
+Daño leve nuclear (Un enemigo).
+Daño mediano nuclear (Un enemigo).
+Daño grave nuclear (Área).
+Daño grave nuclear (Todos).
+Daño enorme nuclear (Todos).
+Daño masivo nuclear (Todos).
+Daño leve de ráfaga (Un enemigo).
+Daño medio de ráfaga (Un enemigo).
+Daño grave de ráfaga (Área).
+Daño leve de ráfaga (Todos).
+Daño medio de ráfaga (Todos).
+Daño grave de ráfaga (Todos).
+Daño medio de ráfaga (Área).
+Daño medio de ráfaga (Área).
+Daño leve de gravedad (Un enemigo).
+Daño medio de gravedad (Un enemigo).
+Daño grave de gravedad (Área).
+Daño leve de gravedad (Todos).
+Daño medio de gravedad (Todos).
+Daño grave de gravedad (Todos).
+Daño leve de elec. (Un enemigo).
+Daño medio de elec. (Un enemigo).
+Daño grave de elec. (Área).
+Daño leve de elec. (Todos).
+Daño medio de elec. (Todos).
+Daño grave de elec. (Todos).
+Daño medio de elec. (Área).
+Daño medio de elec. (Área).
+Daño continuo de muerte (Un enemigo).
+Daño continuo de muerte (Área).
+Daño continuo de muerte (Todos).
+Daño continuo de muerte (Un enemigo).
+Daño continuo de muerte (Área).
+Daño continuo de muerte (Todos).
+Inflije estado de para. (Un enemigo).
+Inflije estado de pie. (Un enemigo).
+Daño de muerte instant. (Un enemigo).
+Inflije estado de culpa (Un enemigo).
+Inflije estado de miedo (Un enemigo).
+NULO
+NULO
+NULO
+NULO
+Inflije estado dormido (Área).
+Inflije estado atado (Área).
+Inflije estado pánico (Área).
+Inflije estado feliz (Área).
+Inflije estado encanto(Área).
+Inflije estado encanto (Área).
+Inflije estado ceguera (Área).
+Inflije estado infortunio (Área).
+No recupera PS (3 turnos, 1 enemigo).
+No cambiar persona (Un enemigo).
+Inflije estado encanto (Área).
+Inflije estado feliz (Área).
+Inflije estado infortunio (Área).
+Inflije estado silencio (Área).
+Inflije estado culpa (Área).
+Inflije estado dormido (Área).
+Inflije estado pánico (Área).
+Inflije estado atado (Área).
+Inflije estado miedo (Área).
+Inflict estado encanto (Área).
+Daño mental medio+veneno (Área).
+Daño mental medio+ceguera (Área).
+Invisible (Un aliado). Quita estados.
+Marioneta (Un aliado inconsciente).
+Contrata. (Un aliado). Quita estados.
+Furia (Un aliado). Quita estados.
+Loco (Un aliado). Quita estados.
+Bestia (Un aliado). Quita estados.
+Muerte inst. de maldición (1 enemigo)
+Inflije estado piedra (Un enemigo).
+Inflije estado paral. (Un enemigo).
+Inflije estado veneno (Un enemigo).
+Inflije estado enfermo (Un enemigo).
+???
+Daño grave de maldición (Área).
+Daño grave de maldición (Área).
+Daño continuo de expeler (1 enemigo).
+Daño continuo de expeler (Área).
+Daño continuo de expeler (Todos).
+Daño continuo de expeler (1 enemigo).
+Daño continuo de expeler (Área).
+Daño continuo de expeler (Todos).
+Reduce el ataque (Todos ).
+Reduce la defensa (Todos ).
+Reduce la precisión (Todos ).
+Elimina las debilitaciones (Todos).
+Aumenta el ataque (Todos).
+Aumenta la defensa (Todos).
+Aumenta la precisión (Todos).
+Aumenta el ataque mágico (Todos).
+Elimina potenciadores (Todos).
+Escudo contra expeler y muerte.
+Repele magia (1 turno, Todos).
+Repele ataques fís. (1 turno, Todos).
+Recupera un poco de PS.
+Recupera gran cantidad de PS.
+Recupera todo el PS.
+Recupera un poco de PS (Todos).
+Recupera gran cantidad de PS (Todos).
+Recupera todo el PS (Todos).
+Cura un estado alterado (Un aliado).
+Acelera recuper. de estado (Todos).
+Cura estado veneno (Un aliado).
+Cura estado paralisis (Un aliado).
+Cura estado piedra (Un aliado).
+Cura estado enfermo (Un aliado).
+Revive a un aliado con poco PS.
+Revive a un aliado con todo su PS.
+Cura a todo el grupo. Usuario muere.
+???
+Daño grave de milagro (Área).
+Daño grave de milagro (Área).
+Abre oportunidad para huir.
+Immuni. a trampas por un ciclo lunar.
+Restaura habilidad para cambiar pers.
+Grupo drena habilidades de hielo.
+Grupo drena habilidades de fuego.
+Repele todo daño por tres turnos.
+Repele todo daño por tres turnos.
+Previene que el enemigo escape.
+Un maravilloso regalo (Un enemigo).
+Aumenta poder tras uso (Un enemigo).
+Daño aleatorio (Área).
+NULO
+Daño basado en PS (Usuario muere)
+NULO
+NULO
+NULO
+NULO
+???
+Muerde a un enemigo.
+Muerde a un enemigo y lo envenena.
+Muerde a un enemigo y lo paraliza.
+Muerde a un enemigo y los infecta.
+Muerde a un enemigo y lo petrifica.
+Ataque cargado hacia un enemigo.
+Aplasta los huesos de un enemigo.
+Aplasta un enemigo.
+Ataque cargado fuerte a un enemigo.
+Aplasta con fuerza a un enemigo.
+Picotea un enemigo con un pico.
+Ataca a un enemigo agitando sus alas.
+Ataca a un enemigo con una caida.
+Ataca a un enemigo con unas garras.
+Ataca a un enemigo con unas garras.
+Rasguña a un enemigo.
+Rasguña a un enemigo y lo envenena.
+Rasguña a un enemigo y lo paraliza.
+Rasguña a un enemigo y lo infecta.
+Rasguña a un enemigo y lo petrifica.
+Daña los enemigos con púas venenosas.
+Ataque con púa paralizante a los ene.
+Lanza púas hacia múltiples enemigos.
+Ataque mortal con púa hacia un enemi.
+Ataque con técnica especial.
+Ataque con un golpe de gracia.
+Ataque con técnica definitiva.
+Técnica especial con espada de 1M.
+Golpe de gracia con espada de 1 mano.
+Técnica definitiva con espada de 1M.
+Técnica especial con espada de 2M.
+Golpe de gracia con espada de 2M.
+Técnica definitiva con espada de 2M.
+Técnica especial con lanza.
+Golpe de gracia con lanza.
+Técnica definitiva con lanza.
+Técnica especial con hacha.
+Golpe de gracia con hacha.
+Técnica definitiva con hacha.
+Técnica especial con látigo.
+Golpe de gracia con látigo.
+Técnica definitiva con látigo.
+Técnica especial con proyectil.
+Golpe de gracia con proyectil.
+Técnica definitiva con proyectil.
+Técnica especial con flechas.
+Golpe de gracia con flechas.
+Técnica definitiva con flechas.
+Técnica especial con puños.
+Golpe de gracia con puños.
+Técnica definitiva con puños.
+NULO
+NULO
+NULO
+NULO
+NULO
+
+
+
+
+
+
+#アイテム説明
+Ataque:  10   Golpe:  6      1 Golpe
+Ataque:  25   Golpe: 10      1 Golpe
+Ataque:  18   Golpe: 15      2 Golpes
+Ataque:  42   Golpe: 18      1 Golpe
+Ataque:  16   Golpe: 22    Todos
+Ataque:  40   Golpe: 30      2 Golpes
+Ataque:  52   Golpe: 39      2 Golpes
+Ataque: 110   Golpe: 44      1 Golpe
+Ataque:  62   Golpe: 55      2 Golpes
+Ataque:  38   Golpe: 61      4 Golpes
+Ataque: 170   Golpe: 70      1 Golpe
+Ataque:  65   Golpe: 78      3 Golpes
+Ataque:   8   Golpe: 11      2 Golpes
+Ataque:  20   Golpe: 16   1～3 Golpes
+Ataque:  14   Golpe: 20      4 Golpes
+Ataque:  17   Golpe: 24   3～5 Golpes
+Ataque:  42   Golpe: 28    Todos
+Ataque:  33   Golpe: 33   2～4 Golpes
+Ataque:  40   Golpe: 38      3 Golpes
+Ataque:  35   Golpe: 45      4 Golpes
+Ataque:  42   Golpe: 50   3～5 Golpes
+Ataque:  47   Golpe: 58   3～5 Golpes
+Ataque:  51   Golpe: 60   0～7 Golpes
+Ataque:  44   Golpe: 67   4～6 Golpes
+Ataque:  10   Golpe: 10   1～3 Golpes
+Ataque:  13   Golpe: 16   1～3 Golpes
+Ataque:   7   Golpe: 20      5 Golpes
+Ataque:  15   Golpe: 28   2～4 Golpes
+Ataque:  14   Golpe: 34   3～5 Golpes
+Ataque:   9   Golpe: 40      7 Golpes
+Ataque:  36   Golpe: 51   1～3 Golpes
+Ataque:  22   Golpe: 60      4 Golpes
+Ataque:  25   Golpe: 73   3～5 Golpes
+Ataque:  60   Golpe: 81   1～3 Golpes
+Ataque:  75   Golpe: 85      2 Golpes
+Ataque:  31   Golpe: 92      6 Golpes
+Ataque:  23   Golpe:  7      1 Golpe
+Ataque:  36   Golpe: 12      1 Golpe
+Ataque:  49   Golpe: 19      1 Golpe
+Ataque:  62   Golpe: 25      1 Golpe
+Ataque:  78   Golpe: 28      1 Golpe
+Ataque:  92   Golpe: 32      1 Golpe
+Ataque: 108   Golpe: 37      1 Golpe
+Ataque: 125   Golpe: 42      1 Golpe
+Ataque: 143   Golpe: 49      1 Golpe
+Ataque: 167   Golpe: 55      1 Golpe
+Ataque: 181   Golpe: 58      1 Golpe
+Ataque: 205   Golpe: 61      1 Golpe
+Ataque:   4   Golpe: 12    Todos
+Ataque:   6   Golpe: 20    Todos
+Ataque:   8   Golpe: 29    Todos
+Ataque:  11   Golpe: 35    Todos
+Ataque:  14   Golpe: 43    Todos
+Ataque:  18   Golpe: 50    Todos
+Ataque:  21   Golpe: 57    Todos
+Ataque:  23   Golpe: 64    Todos
+Ataque:  26   Golpe: 70    Todos
+Ataque:  30   Golpe: 73    Todos
+Ataque:  33   Golpe: 79    Todos
+Ataque:  35   Golpe: 82    Todos
+Ataque:   5   Golpe: 10    Todos
+Ataque:   9   Golpe: 14   2～4 Golpes
+Ataque:   8   Golpe: 20   4～6 Golpes
+Ataque:  12   Golpe: 29    Todos
+Ataque:  14   Golpe: 36    Todos
+Ataque:  17   Golpe: 42    Todos
+Ataque:  36   Golpe: 49   1～3 Golpes
+Ataque:  20   Golpe: 53   3～5 Golpes
+Ataque:  24   Golpe: 62    Todos
+Ataque:  27   Golpe: 71    Todos
+Ataque:  20   Golpe: 78   5～7 Golpes
+Ataque:  32   Golpe: 85    Todos
+Ataque:  11   Golpe:  9      2 Golpes
+Ataque:  12   Golpe: 15      3 Golpes
+Ataque:  18   Golpe: 21   1～3 Golpes
+Ataque:   8   Golpe: 26   4～6 Golpes
+Ataque:  47   Golpe: 31      1 Golpe
+Ataque:  13   Golpe: 40    Todos
+Ataque:  16   Golpe: 48   0～7 Golpes
+Ataque:  25   Golpe: 53   2～4 Golpes
+Ataque:  86   Golpe: 65      1 Golpe
+Ataque:  26   Golpe: 72    Todos
+Ataque: 119   Golpe: 80      1 Golpe
+Ataque:  23   Golpe: 88    Todos
+Ataque:  30   Golpe:  5      1 Golpe
+Ataque:  42   Golpe: 11      1 Golpe
+Ataque:  50   Golpe: 18      2 Golpes
+Ataque:  58   Golpe: 25      1 Golpe
+Ataque:  33   Golpe: 30      2 Golpes
+Ataque:  40   Golpe: 37    Todos
+Ataque:  48   Golpe: 42   1～3 Golpes
+Ataque: 112   Golpe: 48      1 Golpe
+Ataque:  65   Golpe: 56      2 Golpes
+Ataque:  81   Golpe: 62      2 Golpes
+Ataque: 192   Golpe: 70      1 Golpe
+Ataque: 222   Golpe: 77      1 Golpe
+Ataque:  10   Golpe: 15      1 Golpe
+Ataque:  22   Golpe: 20      1 Golpe
+Ataque:  31   Golpe: 29      1 Golpe
+Ataque:  40   Golpe: 35      1 Golpe
+Ataque:  18   Golpe: 42      3 Golpes
+Ataque:  32   Golpe: 48   1～3 Golpes
+Ataque:  78   Golpe: 52      1 Golpe
+Ataque:  85   Golpe: 60      1 Golpe
+Ataque:  33   Golpe: 71      3 Golpes
+Ataque: 109   Golpe: 77      1 Golpe
+Ataque: 117   Golpe: 81      1 Golpe
+Ataque:  35   Golpe: 86   0～7 Golpes
+Ataque:  11   Golpe:  8   1～3 Golpes
+Ataque:  14   Golpe: 13   1～3 Golpes
+Ataque:  12   Golpe: 19   2～4 Golpes
+Ataque:  21   Golpe: 27   2～4 Golpes
+Ataque:  25   Golpe: 33   0～7 Golpes
+Ataque:  11   Golpe: 40      6 Golpes
+Ataque:  19   Golpe: 46   0～7 Golpes
+Ataque:  12   Golpe: 54      7 Golpes
+Ataque:  20   Golpe: 59   4～6 Golpes
+Ataque:  29   Golpe: 63   3～5 Golpes
+Ataque:  32   Golpe: 70    Todos
+Ataque:  19   Golpe: 75      7 Golpes
+Ataque:  10   Golpe: 10    Todos
+Ataque:  15   Golpe: 18    Todos
+Ataque:  21   Golpe: 26    Todos
+Ataque:  25   Golpe: 31    Todos
+Ataque:  32   Golpe: 40    Todos
+Ataque:  39   Golpe: 46    Todos
+Ataque:  45   Golpe: 53    Todos
+Ataque:  56   Golpe: 58    Todos
+Ataque:  68   Golpe: 65    Todos
+Ataque:  80   Golpe: 70    Todos
+Ataque:  92   Golpe: 74    Todos
+Ataque: 108   Golpe: 80    Todos
+Ataque:   9   Golpe: 12   2～4 Golpes
+Ataque:  12   Golpe: 20   2～4 Golpes
+Ataque:  10   Golpe: 25   4～6 Golpes
+Ataque:  13   Golpe: 30   3～5 Golpes
+Ataque:  12   Golpe: 34   4～6 Golpes
+Ataque:  14   Golpe: 40   4～6 Golpes
+Ataque:  18   Golpe: 45    Todos
+Ataque:  32   Golpe: 52   2～4 Golpes
+Ataque:  37   Golpe: 61   2～4 Golpes
+Ataque:  60   Golpe: 67   1～3 Golpes
+Ataque:  71   Golpe: 73      2 Golpes
+Ataque:  39   Golpe: 82   0～7 Golpes
+Ataque:   5
+Ataque:  10
+Ataque:  14
+Ataque:  17
+Ataque:  23
+Ataque:  30
+Ataque:  37
+Ataque:  42
+Ataque:  45
+Ataque:  49
+Ataque:  52
+Ataque:  56
+Defensa:   4  Evasión:  1
+Defensa:   5  Evasión:  3
+Defensa:   8  Evasión:  2
+Defensa:  10  Evasión:  4
+Defensa:   9  Evasión:  9
+Defensa:  20  Evasión:  3
+Defensa:  15  Evasión: 12
+Defensa:  16  Evasión: 14
+Defensa:  23  Evasión: 10
+Defensa:  18  Evasión: 17
+Defensa:  30  Evasión:  8
+Defensa:  29  Evasión: 11
+Defensa:  32  Evasión: 10
+Defensa:  35  Evasión: 10
+Defensa:  45  Evasión:  4
+Defensa:  25  Evasión: 25
+Defensa:   8  Evasión:  2
+Defensa:   9  Evasión:  6
+Defensa:  15  Evasión:  5
+Defensa:  20  Evasión: 10
+Defensa:  25  Evasión: 13
+Defensa:  30  Evasión: 12
+Defensa:  30  Evasión: 15
+Defensa:  20  Evasión: 31
+Defensa:  30  Evasión: 29
+Defensa:  33  Evasión: 30
+Defensa:  60  Evasión: 10
+Defensa:  50  Evasión: 26
+Defensa:  62  Evasión: 21
+Defensa:  65  Evasión: 23
+Defensa:  80  Evasión: 13
+Defensa:  60  Evasión: 45
+Defensa:   2  Evasión:  1
+Defensa:   3  Evasión:  2
+Defensa:   4  Evasión:  3
+Defensa:   5  Evasión:  5
+Defensa:   8  Evasión:  6
+Defensa:  10  Evasión:  9
+Defensa:  13  Evasión: 11
+Defensa:  15  Evasión: 12
+Defensa:  16  Evasión: 14
+Defensa:  18  Evasión: 16
+Defensa:  25  Evasión: 14
+Defensa:  28  Evasión: 13
+Defensa:  29  Evasión: 14
+Defensa:  30  Evasión: 15
+Defensa:  45  Evasión:  3
+Defensa:  36  Evasión: 14
+Defensa:   2  Evasión:  2
+Defensa:   1  Evasión:  5
+Defensa:   3  Evasión:  7
+Defensa:   5  Evasión:  8
+Defensa:  10  Evasión:  5
+Defensa:  11  Evasión:  8
+Defensa:  12  Evasión: 11
+Defensa:  13  Evasión: 13
+Defensa:  10  Evasión: 18
+Defensa:  19  Evasión: 14
+Defensa:  20  Evasión: 16
+Defensa:  25  Evasión: 15
+Defensa:  30  Evasión: 12
+Defensa:  33  Evasión: 13
+Defensa:  40  Evasión:  9
+Defensa:  28  Evasión: 22
+Recupera un poco de PS.
+Recupera gran cantidad de PS.
+Recupera todo el PS.
+Revive a un aliado con poco PS.
+Revive a un aliado con todo su PS.
+Cura estado piedra (Un aliado).
+Cura estado paralisis (Un aliado).
+Cura estado veneno (Un aliado).
+Cura estado enfermo (Un aliado).
+Recupera un poco de PS a un aliado.
+Recupera e incrementa PS (Un aliado).
+Recupera PS y PE (Un aliado).
+Cura y recupera estados (Un aliado).
+Recupera PE (Un aliado).
+Cura un estado leve (Un aliado).
+Acelera recuper. de estado (Todos).
+Escudo contra expeler y muerte.
+Repele magia (1 turno, Todos).
+Repele ataques fís. (1 turno, Todos).
+Recuperación continua de PS (Todos).
+Immuni. a trampas por un ciclo lunar.
+Cura todo estado alterado (Todos).
+Chance de que los enemigos se vayan.
+Reduce PS a 1 (Todos).
+Succiona a los enemigos.
+Arrasa a los enemigos.
+Incrementa FUE (Un punto).
+Incrementa VIT (Un punto).
+Incrementa TÉC (Un punto).
+Incrementa AGI (Un punto).
+Incrementa SUE (Un punto).
+Incrementa PS (5 puntos).
+Incrementa PE (5 puntos).
+Escapas de la mazmorra.
+Daño grave de fuego (Área).
+Daño leve de fuego (Todos).
+Daño medio de fuego (Todos).
+Daño grave de fuego (Todos).
+Daño grave de hielo (Área).
+Daño leve de hielo (Todos).
+Daño medio de hielo (Todos).
+Daño grave de hielo (Todos).
+Daño grave de viento (Área).
+Daño leve de viento (Todos).
+Daño medio de viento (Todos).
+Daño grave de viento (Todos).
+Daño grave de tierra (Área).
+Daño leve de tierra (Todos).
+Daño medio de tierra (Todos).
+Daño grave de tierra (Todos).
+Daño grave nuclear (Área).
+Daño grave nuclear (Todos).
+Daño enorme nuclear (Todos).
+Daño masivo nuclear (Todos).
+Daño grave de ráfaga (Área).
+Daño leve de ráfaga (Todos).
+Daño medio de ráfaga (Todos).
+Daño grave de ráfaga (Todos).
+Daño grave de gravedad (Área).
+Daño leve de gravedad (Todos).
+Daño medio de gravedad (Todos).
+Daño grave de gravedad (Todos).
+Daño grave de elec.  (Área).
+Daño leve de elec. (Todos).
+Daño medio de elec. (Todos).
+Daño grave de elec.  (Todos).
+Daño continuo de muerte (Todos).
+Daño continuo de muerte (Todos).
+Muerte inst. de maldición (1 enemigo)
+Inflije estado piedra (Un enemigo).
+Inflije estado paral. (Un enemigo).
+Inflije estado veneno (Un enemigo).
+Inflije estado enfermo (Un enemigo).
+???
+Daño continuo de expeler (Todos).
+Daño continuo de expeler (Todos).
+???
+Recupera todo el PS (Un aliado).
+Recupera todo el PS (Todos).
+Cura estado veneno (Un aliado).
+Cura estado paralisis (Un aliado).
+Cura estado piedra (Un aliado).
+Cura estado enfermo (Un aliado).
+Revive a un aliado con todo su PS.
+Refin. Arm.   +7～+9.   Evasión +3.
+Refinar.      +10.      Sin bonos.
+Refin. Armad. +7～+9.   Gol. Pis. +1.
+Refin. Ar.    +7～+9.   Defensa +3.
+Refin. Armad. +7～+9.   Gol. Ar. +1.
+Refin. Pis.   +1～+3.   Sin bonos.
+Refin. Ar.    +4～+6    Evasión +2.
+Refin. Armad. +1～+3    Gol. Pis. +1.
+Refin. Ar.    +4～+6    Defensa +2.
+Refin. Pis.   +4～+6    Sin bonos.
+Refin. Armad. +4～+6    Gol. Pis. +1.
+Refin. Pis.   +7～+9    Sin bonos.
+Refin. Ar.    +1～+3    Defensa +1.
+Refin. Ar.    +1～+3    Evasión +1.
+Refin. Armad. +4～+6    Gol. Ar. +1.
+Refin. Armad. +1～+3    Gol. Ar. +1.
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+Un tótem. ¿Usarlo en la fusión y?...
+--
+↑
+0
+:
+P.
+？？？？？？？？？？
+？？？？？？？？
+－－－－－－－－
+>>
+x
+---
+>>
+CARTA
+>>
+VACÍO
+¡Ataque preventivo!
+¡Ataque por atrás!
+Falla
+Falla
+ 
+P
+ 
+P
+>>
+ 
+ \
+Continuar
+Salir
+:
+P
+Salón de terciopelo
+----------
+--
+x
+CAMBIAR
+BORRAR
+0
+CAMBIAR
+ESTADO
++
+？？？？？？？？？？
+？？？？？？？？？
+--
+－－
+Descartar este objeto.
+¿Estás seguro?
+   
+x
+Obtuviste objeto:
+　　「
+」
+x
+「
+ x 
+Descartar 
+CAMBIAR
+REMOVER
+ÓPTIMO
+REMOVER TODO
+OPCIONES
+:
+%
+/2
+/3
+Manantial
+\
+Tienda
+\
+Inventario   x
+Comprar      x
+Vender       x
+\
+:
+Golpes:
+～
+Objetivos:
+Estado:
+ Alcanzar
+■
+□
+:E
+Almacén
+x
+Tomar        x
+x
+Refinería
+x
+1
+x
+
+ entrada
+Selecciona una planta.
+ P1
+ P5
+0
+>>
+＋
+＝
+GUARDAR
+－－－－－－
+--
+ ent.
+P
+－－－－－－
+Guardando
+Sobreescribir el archivo.
+¿Es esto correcto?
+El juego se ha guardado.
+Volver al menú principal.
+¿Es esto correcto?
+???
+Salón de terciopelo
+Último piso
+No hay conexión.
+   
+･  
+･･ 
+･･･
+Leyendo datos
+Abriendo aplicación
+Persona
+Crónica de la torre anómala
+Espera.
+(C)ATLUS 1996-2006
+Atrás
+Quitar
+OK
+Página
+Detalles
+Menú
+Abajo
+Arriba
+Descartar
+Descartar
+Apagar
+Mapa
+Título
+ 
+P
++
+/
+>>
++
+/
+－－－－－－－－－
+No puedes
+Refinar
+ 
+Ayuda
+: 
+a la pantalla de título.
+Agi
+Agilao
+Agidina
+Maragi
+Maragion
+Maragidina
+Aliento de fuego
+Sublima. Carmesí
+Cesación celeste
+Bufu
+Bufula
+Bufudina
+Mabufu
+Mabufula
+Mabufudina
+Aliento de hielo
+Ola poderosa
+Ola gentil
+Garu
+Garula
+Garudina
+Magaru
+Magarula
+Magarudina
+Clicón celestial
+Vortice terrenal
+Magna
+Magnus
+Magdina
+Mamagna
+Mamagnus
+Mamagdina
+Infierno
+Paraiso
+Frei
+Freila
+Freidina
+Megido
+Megidola
+Megidolaon
+Zan
+Zanma
+Zandina
+Mazan
+Mazanma
+Mazandina
+Impacto del este
+Ráfaga del oeste
+Gra
+Gravi
+Gravidina
+Magra
+Magravi
+Magravidina
+Zio
+Zionga
+Ziodina
+Mazio
+Mazionga
+Maziodina
+Explosión Zap
+Implosión Zap
+Eiha
+Baeiha
+Maeiha
+Mudo
+Mudoon
+Mamudo
+Ojo paralizador
+Mirada petrea
+Ojos infernales
+Ojos culpables
+Mirada terrori.
+Beso apasionado
+Beso del demonio
+Sonrisa malvada
+Toque mortal
+Dormina
+Shibaboo
+Pulinpa
+Dicha
+Marin Karin
+Makajam
+Ceguera
+Desplomarse
+Decuperar
+Desanga
+Baile sensual
+Baile feliz
+Hula del infort.
+Tango disipador
+Vals de la tris.
+Canción de cuna
+Voz con pánico
+Voz atrapante
+Canción frenesí
+Voz dulce
+Aliento venenoso
+Aliento nebuloso
+Doronpa
+Doroide
+Rapikka
+Balzac
+Mador
+Loboan
+Muertika
+Petrama
+Paralama
+Poisma
+Nervma
+Cúmulo omega
+Negro eterno
+Veredic. Oscuro
+Kouha
+Baikouha
+Makouha
+Hama
+Hamaon
+Mahama
+Tarunda
+Rakunda
+Sukunda
+Dekunda
+Tarukaja
+Rakukaja
+Sukukaja
+Makakaja
+Dekaja
+Tetraja
+Makarakarn
+Tetrakarn
+Dia
+Diarama
+Diarahan
+Media
+Mediarama
+Mediarahan
+Patra
+Pen Patra
+Venemudi
+Paraladi
+Petradi
+Nervundi
+Recarm
+Samarecarm
+Recarmdra
+Destello alfa
+Blanco eterno
+Juicio radiante
+Salitoma
+Levitoma
+Alsanga
+Muro de agua
+Muro de fuego
+Muro de cristal
+Muro de acero
+Trampa lunar
+Trampa dulce
+Golpe víbora
+Puño de tambor
+Ataque arcoíris
+Ataque binario
+Último recurso
+Autodestrucción
+Clonar
+Disolvente
+Cincel sagrado
+Mordisco fiero
+Mordisco venenoso
+Mordisco paralizante
+Mordisco viral
+Mordisco pétreo
+Placaje
+Aplastahuesos
+Aplastar
+Golpe celestial
+Asalto megatón
+Picotazo
+Aleteo
+Zambullida
+Garra pinchos
+Garra de la muerte
+Garra salvaje
+Garra venenosa
+Garra paralizante
+Garra viral
+Garra pétrea
+Aguijon venenoso
+Stun Needle
+Acom. de agujas
+Abanico genocida 
+Patada giratoria
+Patada trueno
+Patada rayo
+Tajo gemelo
+Ola de calor
+Portamuerte
+Tajo único 
+Colmillo de lobo
+Corte triple
+Empujón doble
+Remolino dragón
+Lanza llameante
+Apuñalada de ráfaga
+Tajada destructiva
+Rebanador térreo
+Látigo de amor
+Espiral infinito
+Destruye lunas
+Bola rapida
+Clavada oscura
+Bala sónica
+Tiro rapido
+Mil flechas
+Lluvia de flechas
+Puño centelleante
+Puños rabiosos
+Puño mortal
+Tiro único
+Tiro con impulso
+Tiro medio
+Tiro polvoriento
+Tiro largo
