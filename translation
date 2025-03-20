@@ -1,4 +1,4 @@
-Por favor, introduzca su nombre.
+　　　Introduce tu nombre.
 　　*Máximo de 12 caracteres.
 　　　　 ＞
 ABCD EFGH IJKL MNOP  0  ABC 123
@@ -61,8 +61,8 @@ Puedes dejar la torre desde aquí.
 ¡Gracias a Liftoma
 ¡Gracias al Escudo 
 evadiste la trampa!
-El efecto de Liftoma se ha acabado.
-El efecto del Escudo se ha acabado.
+El efecto de liftoma se ha acabado.
+El efecto del escudo se ha acabado.
 Torre anómala
 
 
@@ -91,8 +91,8 @@ Empezar el combate.
 Huir.
 Empezar negociación.
 Cambiar formación.
-Empezar combate automatico.
-Analisis de Demonios.
+Empezar combate automático.
+Analisis de demonios.
 
 Atacar con el arma equipada.
 Atacar con el arma de fuego equipada.
@@ -104,21 +104,21 @@ Defender en este turno.
 No hay enemigos en el rango.
 No hay A. Fuego y/o balas equipadas.
 No tienes un Persona de respaldo.
-¿Es esto correcto?
+¿Estás seguro?
 　　　
 …　　
 ……　
 ………
 Escape exitoso.
 ¡No pudiste escapar!
-Selecciona a quien mover.
-Posicione al personaje seleccionado.
+Selecciona a quién mover.
+Posiciona al personaje seleccionado.
 Este personaje ya está puesto.
-¡No hay nadie en frente!
+¡No hay nadie al frente!
 ¿Es esta formación correcta?
 ¿Revertir a la formación anterior?
 
-Afinidad Mala. No puedes usar este Persona.
+Afinidad mala. No puedes usar este Persona.
 No tienes objetos por usar.
 No tienes suficiente PE.
 ¿Es este grupo correcto?
@@ -130,8 +130,8 @@ Selecciona al Persona que quieres.
 ¡¡Contraataque!!
 Fuiste derrotado...
 RESULTADOS DEL COMBATE
-Distribuye los puntos.
-¿Es esto correcto?
+Distribuye los puntos:
+¿Estás seguro?
 ESTADO ALTERADO: CEGUERA
 
 
@@ -167,10 +167,10 @@ Reiji
 
 
 #システム
-No puedes equipar. Inventario está lleno.
+Imposible. El inventario está lleno.
 Suspender el juego.
 Volver al menú principal.
-¿Es esto correcto?
+¿Estás seguro?
 En mano     x
 Comprar       x
 Vender        x
@@ -212,8 +212,8 @@ CÓMO JUGAR
 Visitar sitio web.
 Salir de la aplicación.
 No puede usarse aquí.
-Dejar la mazmorra
-Suspender el juego, y volver
+Dejar la mazmorra.
+Suspender el juego y volver.
 Volver al menú principal.
 Selecciona la cantidad por depositar.
 Selecciona la cantidad por tomar.
@@ -359,7 +359,7 @@ Teke Teke
 Policia zombi
 Enferme. Zombi
 Zombi chica
-Zombi chico
+Chico zombi
 Sr. Zombi
 Gris
 Sombra
@@ -391,7 +391,7 @@ Bisturí
 Estoque
 Cuchillo athame
 Rompemallas
-Sable Lunar
+Sable lunar
 Washizaki Anti-Demon.
 Kris Naga
 Daga phurba
@@ -404,23 +404,23 @@ Sable
 Espada de plasma
 Hoja sónica
 Hoja solar
-Claimh Solais
+Claimh solais
 Fragarach
 Nihil
 Claymore ventisca
 Claymore alborada
 Brionac
 Ame-no-Murakumo
-Lanza Apache
+Lanza apache
 Corcesca
 Fauchard
 Mard geer
-Lúin Celtchair
+Lúin celtchair
 Lanza desecada
 Longinus
-Fang Tian Huaji
+Fangtian hua ji
 Gáe Bolg
-Báculo demoniaco
+Báculo demoníaco
 Sombra gemela
 Ame-no-Nuboko
 Hacha de dos manos
@@ -435,7 +435,7 @@ Aplastacerebros
 Corta demonios
 Cuchara decapitadora
 Hacha celestial
-Cuerda de Gimnasia
+Cuerda de gimnasia
 Látigo escorpión
 Látigo escarlata
 Zurriago de cola
@@ -490,10 +490,10 @@ HK VP70Z
 Fantasma gris
 Pistola de ataque
 Desert Eagle
-Disparo de dolar
+Disparo de dólar
 Thunderer
 Jolly Roger
-Colt de la Muerte
+Colt de la muerte
 Peacemaker
 Skorpion
 Ingram
@@ -513,12 +513,12 @@ SPAS-12
 Franchi PA3
 SPAS-15
 MADMAX
-Cañon de trueno
+Cañón de trueno
 Cazahombres
-Cañon retorcido
+Cañón retorcido
 Destructor doble
-Cañon de Deforesta.
-Fuego de Megido
+Cañón de deforesta.
+Fuego de megido
 M16A2
 AK-47
 SIG-SG550
@@ -545,7 +545,7 @@ Dead End
 Susurro angelical
 Casco QQ
 Tocado
-Mascara sombría
+Máscara sombría
 Corona frenesí
 Calabaza de hierro
 Casco liviano
@@ -558,7 +558,7 @@ Yelmo zhuque
 Casco jagd
 Casco tempestad
 Casco César
-Mascara spiegel
+Máscara spiegel
 Uniforme escolar
 Chaleco spectra
 Traje de sigilo
@@ -583,7 +583,7 @@ Protector inhibidor
 Guantelete
 Protector de desfile
 Guante de león
-Guante demoniaco
+Guante demoníaco
 Guante del amanecer
 Guante del trueno
 Guante de Qinglong
@@ -617,7 +617,7 @@ Antiparalizante
 Antiveneno
 Antienfermedad
 Piedra vital
-Bebida energetica
+Bebida energética
 Hiranya
 Soma
 Chicle de alma
@@ -625,13 +625,13 @@ Gota pringosa
 Dulce tortuga
 Rueda de plegaria
 Guardia mágica
-Guardia fisíca
+Guardia física
 Voz divina
 Escudo
 Campana numerosa
 Campana repulsión
 Bomba millonaria
-Casa demoniaca
+Casa demoníaca
 Nido de demonios
 Incienso FUE
 Incienso VIT
@@ -656,7 +656,7 @@ Tabla viento maligno
 Piedra magdina
 Piedra mamagna
 Piedra mamagnus
-Tab. sismica maligna
+Tab. sísmica maligna
 Piedra freidina
 Piedra megido
 Piedra megidola
@@ -727,7 +727,7 @@ Diario del fiscal
 Futuro
 Tabla negra
 Tabla azul
-Mascara sin cara
+Máscara sin cara
 Tabla carmesí
 Escama de dragón
 Ciervo de peluche
@@ -781,8 +781,8 @@ Garudina
 Magaru
 Magarula
 Magarudina
-Clicón celestial
-Vortice terrenal
+Ciclón celestial
+Vórtice terrenal
 Magna
 Magnus
 Magdina
@@ -790,7 +790,7 @@ Mamagna
 Mamagnus
 Mamagdina
 Infierno
-Paraiso
+Paraíso
 Frei
 Freila
 Freidina
@@ -817,8 +817,8 @@ Ziodina
 Mazio
 Mazionga
 Maziodina
-Explosión Zap
-Implosión Zap
+Explosión zap
+Implosión zap
 Eiha
 Baeiha
 Maeiha
@@ -826,10 +826,10 @@ Mudo
 Mudoon
 Mamudo
 Ojo paralizador
-Mirada petrea
+Mirada pétrea
 Ojos infernales
 Ojos culpables
-Mirada terrorifica
+Mirada terrorífica
 Beso apasionado
 Beso del demonio
 Sonrisa malvada
@@ -944,8 +944,8 @@ Garra venenosa
 Garra paralizante
 Garra viral
 Garra pétrea
-Aguijon venenoso
-Stun Needle
+Aguijón venenoso
+Aguja aturdidora
 Acom. de agujas
 Abanico genocida 
 Patada giratoria
@@ -965,11 +965,11 @@ Tajada destructiva
 Rebanador térreo
 Látigo de amor
 Espiral infinito
-Destruye lunas
-Bola rapida
+Destruyelunas
+Bola rápida
 Clavada oscura
 Bala sónica
-Tiro rapido
+Tiro rápido
 Mil flechas
 Lluvia de flechas
 Puño centelleante
@@ -1199,7 +1199,7 @@ Pistola
 Fusil
 Escopeta
 Rifle
-Munició.
+Munición
 Cabeza
 Cuerpo
 Brazos
@@ -1409,7 +1409,7 @@ Teketeke
 Pol. Zombi
 Enfer. Zombi
 Zombi chica
-Zombi chico
+Chico zombi
 Sr. Zombi
 Gris
 Sombra
@@ -1458,7 +1458,7 @@ PETRIFI.
 
 #Attack:タイプ
 Único
-Aleato.
+Al azar
 Todos
 －
 
@@ -1556,7 +1556,7 @@ Rp:A. Fuego Rs:Magia
 Nu:Físico Dé:Fuego
 Nu:A. Fuego Dé:Magia
 Dé:Magia
-Solo magia funciona
+Solo la magia funciona
 Rs:Magia
 Rs:A. Fuego
 Nu:Físico Rs:A. Fuego
@@ -1685,35 +1685,35 @@ Daño continuo de muerte (Todos).
 Daño continuo de muerte (Un enemigo).
 Daño continuo de muerte (Área).
 Daño continuo de muerte (Todos).
-Inflije estado de para. (Un enemigo).
-Inflije estado de pie. (Un enemigo).
+Inflige estado de para. (Un enemigo).
+Inflige estado de pie. (Un enemigo).
 Daño de muerte instant. (Un enemigo).
-Inflije estado de culpa (Un enemigo).
-Inflije estado de miedo (Un enemigo).
+Inflige estado de culpa (Un enemigo).
+Inflige estado de miedo (Un enemigo).
 NULO
 NULO
 NULO
 NULO
-Inflije estado dormido (Área).
-Inflije estado atado (Área).
-Inflije estado pánico (Área).
-Inflije estado feliz (Área).
-Inflije estado encanto(Área).
-Inflije estado encanto (Área).
-Inflije estado ceguera (Área).
-Inflije estado infortunio (Área).
+Inflige estado dormido (Área).
+Inflige estado atado (Área).
+Inflige estado pánico (Área).
+Inflige estado feliz (Área).
+Inflige estado encanto(Área).
+Inflige estado encanto (Área).
+Inflige estado ceguera (Área).
+Inflige estado infortunio (Área).
 No recupera PS (3 turnos, 1 enemigo).
 No cambiar persona (Un enemigo).
-Inflije estado encanto (Área).
-Inflije estado feliz (Área).
-Inflije estado infortunio (Área).
-Inflije estado silencio (Área).
-Inflije estado culpa (Área).
-Inflije estado dormido (Área).
-Inflije estado pánico (Área).
-Inflije estado atado (Área).
-Inflije estado miedo (Área).
-Inflict estado encanto (Área).
+Inflige estado encanto (Área).
+Inflige estado feliz (Área).
+Inflige estado infortunio (Área).
+Inflige estado silencio (Área).
+Inflige estado culpa (Área).
+Inflige estado dormido (Área).
+Inflige estado pánico (Área).
+Inflige estado atado (Área).
+Inflige estado miedo (Área).
+Inflige estado encanto (Área).
 Daño mental medio+veneno (Área).
 Daño mental medio+ceguera (Área).
 Invisible (Un aliado). Quita estados.
@@ -1723,10 +1723,10 @@ Furia (Un aliado). Quita estados.
 Loco (Un aliado). Quita estados.
 Bestia (Un aliado). Quita estados.
 Muerte inst. de maldición (1 enemigo)
-Inflije estado piedra (Un enemigo).
-Inflije estado paral. (Un enemigo).
-Inflije estado veneno (Un enemigo).
-Inflije estado enfermo (Un enemigo).
+Inflige estado piedra (Un enemigo).
+Inflige estado paral. (Un enemigo).
+Inflige estado veneno (Un enemigo).
+Inflige estado enfermo (Un enemigo).
 ???
 Daño grave de maldición (Área).
 Daño grave de maldición (Área).
@@ -1745,24 +1745,24 @@ Aumenta la defensa (Todos).
 Aumenta la precisión (Todos).
 Aumenta el ataque mágico (Todos).
 Elimina potenciadores (Todos).
-Escudo contra expeler y muerte.
+Escudo contra "expeler" y "muerte".
 Repele magia (1 turno, Todos).
 Repele ataques fís. (1 turno, Todos).
 Recupera un poco de PS.
 Recupera gran cantidad de PS.
-Recupera todo el PS.
+Recupera todos los PS.
 Recupera un poco de PS (Todos).
 Recupera gran cantidad de PS (Todos).
-Recupera todo el PS (Todos).
+Recupera todos los PS (Todos).
 Cura un estado alterado (Un aliado).
 Acelera recuper. de estado (Todos).
 Cura estado veneno (Un aliado).
-Cura estado paralisis (Un aliado).
+Cura estado parálisis (Un aliado).
 Cura estado piedra (Un aliado).
 Cura estado enfermo (Un aliado).
-Revive a un aliado con poco PS.
-Revive a un aliado con todo su PS.
-Cura a todo el grupo. Usuario muere.
+Revive a un aliado con pocos PS.
+Revive a un aliado con todos los PS.
+Usuario muere para curar al grupo.
 ???
 Daño grave de milagro (Área).
 Daño grave de milagro (Área).
@@ -1787,16 +1787,16 @@ NULO
 Muerde a un enemigo.
 Muerde a un enemigo y lo envenena.
 Muerde a un enemigo y lo paraliza.
-Muerde a un enemigo y los infecta.
+Muerde a un enemigo y lo infecta.
 Muerde a un enemigo y lo petrifica.
 Ataque cargado hacia un enemigo.
 Aplasta los huesos de un enemigo.
 Aplasta un enemigo.
 Ataque cargado fuerte a un enemigo.
 Aplasta con fuerza a un enemigo.
-Picotea un enemigo con un pico.
+Picotea a un enemigo.
 Ataca a un enemigo agitando sus alas.
-Ataca a un enemigo con una caida.
+Ataca a un enemigo con una caída.
 Ataca a un enemigo con unas garras.
 Ataca a un enemigo con unas garras.
 Rasguña a un enemigo.
@@ -1805,7 +1805,7 @@ Rasguña a un enemigo y lo paraliza.
 Rasguña a un enemigo y lo infecta.
 Rasguña a un enemigo y lo petrifica.
 Daña los enemigos con púas venenosas.
-Ataque con púa paralizante a los ene.
+Ataque con púa paralizante (Todos).
 Lanza púas hacia múltiples enemigos.
 Ataque mortal con púa hacia un enemi.
 Ataque con técnica especial.
@@ -2073,7 +2073,7 @@ Recupera todo el PS.
 Revive a un aliado con poco PS.
 Revive a un aliado con todo su PS.
 Cura estado piedra (Un aliado).
-Cura estado paralisis (Un aliado).
+Cura estado parálisis (Un aliado).
 Cura estado veneno (Un aliado).
 Cura estado enfermo (Un aliado).
 Recupera un poco de PS a un aliado.
@@ -2092,7 +2092,7 @@ Cura todo estado alterado (Todos).
 Chance de que los enemigos se vayan.
 Reduce PS a 1 (Todos).
 Succiona a los enemigos.
-Arrasa a los enemigos.
+Arrasa con los enemigos.
 Incrementa FUE (Un punto).
 Incrementa VIT (Un punto).
 Incrementa TÉC (Un punto).
@@ -2136,10 +2136,10 @@ Daño grave de elec.  (Todos).
 Daño continuo de muerte (Todos).
 Daño continuo de muerte (Todos).
 Muerte inst. de maldición (1 enemigo)
-Inflije estado piedra (Un enemigo).
-Inflije estado paral. (Un enemigo).
-Inflije estado veneno (Un enemigo).
-Inflije estado enfermo (Un enemigo).
+Inflige estado piedra (Un enemigo).
+Inflige estado paral. (Un enemigo).
+Inflige estado veneno (Un enemigo).
+Inflige estado enfermo (Un enemigo).
 ???
 Daño continuo de expeler (Todos).
 Daño continuo de expeler (Todos).
@@ -2147,7 +2147,7 @@ Daño continuo de expeler (Todos).
 Recupera todo el PS (Un aliado).
 Recupera todo el PS (Todos).
 Cura estado veneno (Un aliado).
-Cura estado paralisis (Un aliado).
+Cura estado parálisis (Un aliado).
 Cura estado piedra (Un aliado).
 Cura estado enfermo (Un aliado).
 Revive a un aliado con todo su PS.
@@ -2233,7 +2233,7 @@ P
 P
 >>
  
- \
+\
 Continuar
 Salir
 :
@@ -2314,10 +2314,10 @@ P
 －－－－－－
 Guardando
 Sobreescribir el archivo.
-¿Es esto correcto?
+¿Estás seguro?
 El juego se ha guardado.
 Volver al menú principal.
-¿Es esto correcto?
+¿Estás seguro?
 ???
 Salón de terciopelo
 Último piso
@@ -2383,8 +2383,8 @@ Garudina
 Magaru
 Magarula
 Magarudina
-Clicón celestial
-Vortice terrenal
+Ciclón celestial
+Vórtice terrenal
 Magna
 Magnus
 Magdina
@@ -2392,7 +2392,7 @@ Mamagna
 Mamagnus
 Mamagdina
 Infierno
-Paraiso
+Paraíso
 Frei
 Freila
 Freidina
@@ -2419,8 +2419,8 @@ Ziodina
 Mazio
 Mazionga
 Maziodina
-Explosión Zap
-Implosión Zap
+Explosión zap
+Implosión zap
 Eiha
 Baeiha
 Maeiha
@@ -2428,10 +2428,10 @@ Mudo
 Mudoon
 Mamudo
 Ojo paralizador
-Mirada petrea
+Mirada pétrea
 Ojos infernales
 Ojos culpables
-Mirada terrori.
+Mirada terrorí.
 Beso apasionado
 Beso del demonio
 Sonrisa malvada
@@ -2546,8 +2546,8 @@ Garra venenosa
 Garra paralizante
 Garra viral
 Garra pétrea
-Aguijon venenoso
-Stun Needle
+Aguijón venenoso
+Aguja aturdidora
 Acom. de agujas
 Abanico genocida 
 Patada giratoria
@@ -2567,11 +2567,11 @@ Tajada destructiva
 Rebanador térreo
 Látigo de amor
 Espiral infinito
-Destruye lunas
-Bola rapida
+Destruyelunas
+Bola rápida
 Clavada oscura
 Bala sónica
-Tiro rapido
+Tiro rápido
 Mil flechas
 Lluvia de flechas
 Puño centelleante

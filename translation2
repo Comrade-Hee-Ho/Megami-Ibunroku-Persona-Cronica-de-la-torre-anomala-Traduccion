@@ -5,16 +5,16 @@ Te doy la bienvenida al salón de|terciopelo...
 #NO 2
 #SELECT ¿Qué_es_lo_que_deseas? Atrás NULL 1 0 Fusión|Tomar/Borrar|Ver_cartas|Explicación_I|Explicación_II|Explicación_III|Explicación_IV|Salir
 #NO 3
-Si deseas crear un Persona，por|favor no dudes en visitar esta|salón.
+Si deseas crear un Persona，por|favor no dudes en visitar este|salón.
 Al combinar dos cartas distintas，|que tienen hechizos de invocación|grabados en estos，puedo crear un|nuevo Persona.
 Cada demonio tiene su propia|carta. Estas son obtenidas|hablándoles en negociaciones.
 Cuando estás cara a cara con un|demonio，luchar no es tu única |opción. ¿Entiendes?
 Algunas veces son los demonios|mismos quienes no desean luchar...
 #GOTO 2
 #NO 4
-Cada individuo puede tener hasta|un máximo de tres Personas consigo|a la vez.
+Cada individuo puede llevar hasta|un máximo de tres Personas consigo|a la vez.
 Los Personas nuevos que fusiones|van al inventario del salón de|terciopelo，así que no olvides|recibirlos.
-Puedo guardar hasta 16 Personas.|Tú eres libre de dejar y tomarlos|como crees que sea necesario.
+Puedo guardar hasta 16 Personas.|Tú eres libre de dejar y tomarlos|como lo creas necesario.
 Los Personas tienen varias formas|y habilidades.
 Necesitarás aprender como hacer|buen uso de ellos dependiendo de|la situación.
 #GOTO 2
@@ -22,8 +22,8 @@ Necesitarás aprender como hacer|buen uso de ellos dependiendo de|la situación.
 El desarrollo de un Persona está|medido en 8 etapas. Recomiendo|tratar de aumentar uno a su máximo|potencial. Algo bueno podría pasarsi lo haces...
 También hay multiples cosas que|entran en consideración durante|las fusiones.
 Los tipos de cartas，el orden en|el cual son seleccionadas，y|también la compatibilidad de los|demonios seleccionados...
-Algo que olvidé mencionar...|Distintos objectos pueden ser|añadidos a la fusión y pueden|cambiar el resultado. Algunas|veces de manera drástica
-Desafortunadamante mis metodos|no son perfectos，así que algunas veces accidentes podrían ocurrir. Así que recuerda esto.
+Algo que olvidé mencionar...|Distintos objetos pueden ser|añadidos a la fusión y pueden|cambiar el resultado. Algunas|veces de manera drástica.
+Desafortunadamente mis métodos|no son perfectos，por lo que|podrían ocurrir accidentes.|Recuérdalo.
 Vale la pena experimentar con el|proceso de fusión...
 #GOTO 2
 #NO 6
@@ -31,15 +31,15 @@ Cada uno de ustedes debe traer|consigo al menos tres Personas.
 Uno de ellos es el Persona|activo，el cual puede ser invocado|en combate.
 Los otros dos están en espera，y|deben ser activados antes de|poder ser usados.
 El Persona activo le da al usuario|un montón de habilidades.
-La resistencia a la magia es|enteramente dependiente del|Persona activo. Además，podrá|mejorar tus capacidades físicas.
-En ESTADO puedes ver tus|parametros físicos que son|mostrados en barras. Las porcionesrojas son mejoras garantizados portu Persona activo.
+La resistencia a la magia depende|enteramente del Persona activo.|Además，podrá mejorar tus|capacidades físicas.
+En ESTADO puedes ver tus|parámetros físicos que se muestran|en barras. Las porciones|rojas son mejoras garantizadas por tu Persona activo.
 Cuando un Persona es creado，nadie|es capaz de usar todo su poder.
-Mientras más lo uses en combate，|saldrá a la luz más de su poder.
-Además de un incremento de poder，|habilidades adicionales estarán|disponibles.
-No olvides que los combates no|solo te fortalecerán a ti，si no|que a tus Personas también.
+Mientras más lo uses en combate，|más de su poder saldrá a la luz.
+Además de un incremento de poder，|más habilidades adicionales|estarán disponibles.
+No olvides que los combates no|solo te fortalecerán a ti，sino|también a tus Personas.
 #GOTO 2
 #NO 7
-Bueno，entonces adios.
+En fin, adiós.
 #END
 #NO 8
 #SELECT ¿Te_gustaría_añadir_algún_objeto? Atrás NULL 0 1 SÍ|NO
@@ -142,7 +142,7 @@ FountainOfRecovery#NO 0
 ¡Holii!|¡Soy Trish，este es mi manantial!
 La oferta y demanda hacen el mundogirar!|¡Así que si quieres ser curado，|tendrás que darme tu dinero!
 Vamos a ver...|El precio de mercado para curar，|más todos ustedes...
-#SELECT &0_yenes.|¿Es_esto_correcto? Atrás NULL 0 1 SÍ|NO
+#SELECT &0\.|¿Es_esto_correcto? Atrás NULL 0 1 SÍ|NO
 #NO 1
 ¡Muchas gracias!|Ahora voy a curarte.|¡Dolor，dolor，fuera ya!
 #END
@@ -296,10 +296,10 @@ Lo siento，|no tienes suficiente dinero...
 Gracias，vuelva pronto.
 #END
 #NO 7
-Lo siento，pero parece ser que eresincapaz de tener más.
+Lo siento，pero parece que no puedes tener más.
 #END
 #NO 8
-Lo siento，tu inventario parece|estar lleno.
+Lo siento，tu inventario parece|estar vacío.
 #END
 ¶
 
@@ -421,47 +421,47 @@ Warehouse
 #NO 0
 BienVeniDo.
 #NO 1
-#SELECT ¿QuÉ_es_lO_quE_DeseaS? Atrás NULL 0 0 Depositar|Tomar|Salir
+#SELECT ¿QuÉ_es_lO_quE_Desea? Atrás NULL 0 0 Depositar|Tomar|Salir
 #NO 2
 #SELECT ¿dePosItar_qUé? Atrás NULL 0 0 Objetos|Dinero|Regresar
 #NO 3
-#SELECT yEneS_dePosiTadOs:_&0_\.|¿es_esTO_corrECtO? Atrás NULL 0 0 SÍ|NO
+#SELECT yEneS_dePosiTadOs:_&0\.|¿es_esTO_corrECtO? Atrás NULL 0 0 SÍ|NO
 #NO 4
-Sr. cLieNTe，|nO tIenES nAda enCimA.
+Sr. cLieNTe，|nO tIenE nAda enCimA.
 #END
 #NO 5
-Sr. cLieNTe，|nO tIenES DinErO enCimA.
+Sr. cLieNTe，|nO tIenE DinErO enCimA.
 #END
 #NO 6
-Sr. cLieNTe，|nO tIenES sUFIcieNte dIneRO.
+Sr. cLieNTe，|nO tIenE sUFIcieNte dIneRO.
 #END
 #NO 7
-#SELECT ¿QuÉ_vAS_a_tOmAR? Atrás NULL 0 0 Objetos|Dinero|Regresar
+#SELECT ¿QuÉ_vA_a_tOmAR? Atrás NULL 0 0 Objetos|Dinero|Regresar
 #NO 8
-#SELECT yEneS_TomADos_&0.|¿Es_eStO_coRRecTo? Atrás NULL 0 0 SÍ|NO
+#SELECT yEneS_TomADos:_&0\.|¿Es_eStO_coRRecTo? Atrás NULL 0 0 SÍ|NO
 #NO 9
-Sr. cLieNTe，nO tIenES naDA qUe|tOmAR.
+Sr. cLieNTe，nO tIenE naDA qUe|tOmAR.
 #END
 #NO 10
-Sr. cLieNTe，nO tIenES dIneRO qUe|tOmAR.
+Sr. cLieNTe，nO tIenE dIneRO qUe|tOmAR.
 #END
 #NO 11
-Sr. cLieNTe，nO pUedES tOmaR taL|caNtIdaD.
+Sr. cLieNTe，nO pUedE tOmaR taL|caNtIdaD.
 #END
 #NO 12
 AdIos.
 #END
 #NO 13
-El alMacén EstÁ LlenO，nO pUedES|dEposItar mÁs.
+El alMacén EstÁ LlenO，nO pUedE|dEposItar mÁs.
 #END
 #NO 14
-Sr. cLieNTe，nO pUedES teNeR mÁs.
+Sr. cLieNTe，nO pUedE teNeR mÁs.
 #END
 #NO 15
-Sr. cLieNTe，¿nO tIenES mUchO|enCimA aHorA mIsmO?
+Sr. cLieNTe，¿nO tIenE mUchO|enCimA aHorA mIsmO?
 #END
 #NO 16
-nO pUeDes dEposItar TaNTO.
+nO pUeDe dEposItar TaNTO.
 #END
 ¶
 
@@ -573,14 +573,14 @@ No posees esa clase de objeto...
 &0|ha sido refinado...
 #END
 #NO 5
-Estaremos esperando a verte de|nuevo...
+Estaremos esperando el verte de|nuevo...
 #END
 #NO 6
-Refinar es un proceso el cual usa|gemas para mejorar el equipo que|tienes.
+Refinar es un proceso en el cual|se usan gemas para mejorar el|equipo que tienes.
 Después de cada uso，el rango del|equipo va a aumentar en uno y su|rendimiento en un 10%.
-El refinar puede ser usado hasta|10 veces，lo cual se traduce a su|poder original por dos.
-Sin embargo，algunos equipamientosya son lo suficientemente|poderosos así que su poder no va aincrementar mucho.|Por favor，recuerda esto.
-Hay una gran diferencia en el|poder de un equipo no refinado y|un equipo ya refinado.
+El refinado puede ser usado hasta|10 veces，lo cual se traduce a su|poder original por dos.
+Sin embargo，algunos equipamientosya son lo suficientemente|poderosos, así que su poder no se va a incrementar mucho.|Por favor，recuerda esto.
+Hay una gran diferencia entre el|poder de un equipo no refinado y|un equipo ya refinado.
 Por favor，toma en cuenta que hay|distintos tipos de gemas que son|usados en distintos niveles de|refinamiento.
 #GOTO 1
 #NO 7
@@ -846,21 +846,21 @@ Después de irrumpir en el edificioSebec，&0 y sus amigos|fueron enviados a otr
 Sin embargo，en ese momento...
 El pasaje interdimensional|intersectó con un mundo|diferente，y todos fueron enviados allí...
 Enviados a un mundo dominado|por los demonios...
-¿Podrán &0 y sus amigos|ser capaces de escapar sanos|y salvos a casa?...
+¿Podrán &0 y sus amigos|escapar y volver salvos a casa?...
 #END
 
 #NO 1
 #SET_MES_COLOR FFFFFF
 #LOAD_FACE 0 1
-Uf...|¿D-dónde estamos?
-＞ Maki y Mark están colapsados enel suelo.
+Uf...|¿D-Dónde estamos?
+＞ Maki y Mark están desmayados enel suelo.
 #LOAD_FACE 7 1
 Ay...|Oigan cabros，¿están bien?
 #LOAD_FACE 1 1
 Ayy...
-Cielos，es una tras otra...
+Cielos，¡esto no tiene fin! |¿¡Qué es lo que está pasando?!
 ¿Eh?...
-Ey，¿dónde está el resto?|¿Acaso fuimos separados?
+Ey，¿dónde están los demás?|¿Acaso fuimos separados?
 #LOAD_FACE 7 1
 No lo sé...
 Parece que nosotros tres somos losúnicos aquí.
@@ -868,7 +868,7 @@ Parece que nosotros tres somos losúnicos aquí.
 ＞ Mientras miras a tu alrededor，|ves una puerta misteriosa...
 #LOAD_FACE 7 1
 ¿Qué onda con esa puerta rara?|Se ve bien sospechosa.
-&0，¡vamo' a ver que hay|pa' dentro!
+&0，¡vamo' a ver que hay|adentro!
 #LOAD_FACE 0 1
 #SELECT_CHOICE ¿Qué_vas_a_hacer? NULL NULL 0 0 Abrir|No_abrir
 #CHOICE 0
@@ -886,55 +886,55 @@ Pero no hay nada aquí，¿cierto?|No tenemos nada que perder，así|que vamos a
 
 #NO 3
 #LOAD_FACE NULL
-＞ El salón estaba oscuro. Porque|la visión del grupo estaba aún por|ajustarse，por lo que ninguno del|trío podía ver algo.
+＞ El salón estaba oscuro. La|visión del grupo estaba aún por|ajustarse，por lo que ninguno de|los tres podía ver algo.
 #LOAD_FACE 1 1
-¿Q-qué es este lugar?
+¿Q-Qué es este lugar?
 #LOAD_FACE 9 1
 Les doy la bienvenida al salón de|terciopelo....|Este lugar existe entre el mundo|onírico y la realidad，mente y|materia.
 #LOAD_FACE 1 1
-¡Aaaaaaaaaaaaah!|¿¡Q-quién anda ahí?!
+¡Aaaaaaaaaaaaah!|¿¡Q-Quién anda ahí?!
 #LOAD_FACE 9 1
 Vaya，vaya. Así que son ustedes|tres...
 No me esperaba verlos en un lugar|como este...
 #LOAD_FACE 7 1
 Wena，po'，Igor.|¿Sabí' dónde tamo'?
 #LOAD_FACE 9 1
-Mmm... El lugar del que entraron a|este salón es uno al cual llamaría|una dimensión paralela.
-Parece ser que ustedes entraron en|contacto de alguna manera con ella|y cayeron en una nueva rama de|pasajes interdimensionales.
+Mmm... El lugar desde el que|entraron a este salón es lo que seconoce como una dimensión|paralela.
+Parece ser que de alguna manera|ustedes entraron en contacto con|ella y cayeron en una nueva rama|de pasajes interdimensionales.
 #LOAD_FACE 1 1
 ¿¡Una dimensión paralela?!...
 #LOAD_FACE 9 1
-Pero no teman，ustedes tres no son|los unicos que han sido|transportados aquí...
+Pero no teman，ustedes tres no son|los únicos que han sido|transportados aquí...
 #LOAD_FACE 1 1
-¿¡Hay otros?! ¡Deben de ser|nuestros amigos! ¡Sr. Igor，|diganos todo lo que sabe，por|favor!
+¡¿Hay otros?! ¡Deben ser|nuestros amigos! ¡Sr. Igor，|díganos todo lo que sabe，por|favor!
 #LOAD_FACE 9 1
-Por favor，respira hondo，|jovencita... Sé la ubicación de|tus amigos perdidos.
-Ellos están perdidos en un lugar|conocido como la torre anómala.
+Por favor，respire hondo，|jovencita... Sé la ubicación de|tus amigos perdidos.
+Ellos están extraviados en un|lugar conocido como la torre|anómala.
 Están dispersos en varias plantas|de la torre.
 #LOAD_FACE 1 1
 ¡Oh! ¡&0，hay que darnos|prisa para poder ayudarlos!
-Pero espera...|¿Cómo volveremos a nuestro mundo?
+Pero, espera...|¿Cómo volveremos a nuestro mundo?
 #LOAD_FACE 9 1
 Esa no será tarea fácil，incluso|teniendo el poder de los demonios|de tu lado.
 Sin embargo...
 Hay un método que ustedes los|humanos pueden usar，uno que no|requiere la ayuda de otros.
 #LOAD_FACE 7 1
-¿Un metodo que podamo' usar?|¿Qué metodo es?
+¿Un método que podamo' usar?|¿Qué método es?
 #LOAD_FACE 9 1
 Un dispositivo que se encuentra enla planta más alta de la torre|anómala.
 #LOAD_FACE 7 1
 Ah，¡ya caché!|¡Así que podemos usarlo pa'|volver!
 #LOAD_FACE 1 1
-¡Eso quiere decir que podemos|escalar la torre y buscar a|nuestros amigos al mismo tiempo!|¡Qué bien! ¡Dos pajaros de un|tiro!
+¡Eso quiere decir que podemos|escalar la torre y buscar a|nuestros amigos al mismo tiempo!|¡Qué bien! ¡Dos pájaros de un|tiro!
 #LOAD_FACE 9 1
 Me temo que las cosas no serán tansencillas...
 Esa torre es un nido de demonios.
 Su interior es como el de un|laberinto，cambia cada vez que|avanzas a una planta distinta.
-Ya que ustedes son usuarios de|Persona inexpertos，no hay duda|alguna que les será difícil llegara la cima...
+Ya que ustedes son usuarios de|Persona inexpertos，no hay duda deque les será difícil llegara la|cima...
 #LOAD_FACE 1 1
-Bueno，nosotros no tenemos el lujo|de preocuparnos por cosas como|esas.
-Así que lo siento，¡pero volver a|nuestro mundo no es algo|negociable!
-¡&0! Apresurémonos y|salvemos a|todos.
+Bueno，no podemos darnos el lujo|de preocuparnos por cosas como|esas.
+Lo siento，¡pero volver a|nuestro mundo no se negocia!
+¡&0! Apresurémonos y|salvemos a todos.
 #LOAD_FACE 9 1
 Si eso es lo que desean hacer，|permítanme darles un consejo para|que puedan lograr su meta de|llegar a la cima.
 #LOAD_FACE 1 1
@@ -950,7 +950,7 @@ Además，cada individuo puede|activar el poder de un orbe a la|vez.
 Esas son las reglas para hacer uso|de su poder.
 #LOAD_FACE 1 1
 Ummm...
-Así que，si cada uno de nosotros|obtiene un orbe，¡podremos|regresar a casa
+Así que，si cada uno de nosotros|obtiene un orbe，¡podremos|regresar a casa!
 #LOAD_FACE 9 1
 Correcto...
 Ahora，tomen esto.
@@ -982,10 +982,10 @@ scenario0
 #PLAY_BGM 0
 #SET_MES_COLOR FFFFFF
 #LOAD_FACE 7 1
-Umm...|Lugar terrible extraño...
+Umm...|Es un lugar terrible extraño...
 #LOAD_FACE 1 1
-Este lugar es gigante...|Me pregunto donde podrían estar|nuestros amigos exactamente.
-Aunque creo que lo más importante|ahora es encontrar una forma de|subir a la siguiente planta...
+Este lugar es gigante...|¿En dónde podrían estar nuestros|amigos?
+Como sea, creo que lo más|importante ahora es encontrar una|forma de subir a la siguiente|planta...
 #LOAD_FACE 0 1
 ¿¡?!
 #LOAD_FACE NULL
@@ -1004,10 +1004,10 @@ Aunque creo que lo más importante|ahora es encontrar una forma de|subir a la si
 #WAIT_SE_END
 
 #LOAD_FACE 1 1
-Que susto me dió eso...
-Si no nos apresuramos nuestros，|amigos podrían estar en grave|peligro.
+Qué susto me dio eso...
+Si no nos apresuramos, nuestros|amigos podrían estar en grave|peligro.
 #LOAD_FACE 7 1
-¡Vamo' a mover la raja y rapido!
+¡Vamo' a mover la raja y rápido!
 #DUNGEON_SET EXIST START
 #END
 ¶
@@ -1126,7 +1126,7 @@ scenario1
 Chica misteriosa:|¡Aaaaaaaaaaaaah!
 #SET_MES_COLOR FFFFFF
 #LOAD_FACE 0 1
-¿¡?!
+¡¿?!
 #LOAD_FACE 7 1
 ¡Le están pegando a esa cabra|chica!|¡Tenemo' que salvarla!
 #LOAD_FACE NULL
@@ -1154,7 +1154,7 @@ Chica misteriosa:|No lo sé...|¿Por qué... estoy aquí?...
 Chica misteriosa:|¿Podría yo... ir con ustedes?|¿Si no es mucho pedir?...
 #SET_MES_COLOR FFFFFF
 #LOAD_FACE 1 1
-¡Por supuesto que puedes，mientras|más somos mejor será todo!|¡Hora de escapar de aquí juntos!
+¡Por supuesto que puedes，mientras|más seamos mejor será todo!|¡Hora de escapar de aquí juntos!
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
 María:|Muchisimas gracias...|Mi nombre es María.
@@ -1263,16 +1263,16 @@ scenario2
 #BATTLE_SET 3|4|0 132|4
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
-Zombie chico:|Humano... Yo comerte querer.
+Chico zombi:|Humano... Yo comerte querer.
 #SET_MES_COLOR FFFFFF
 #LOAD_FACE 3 1
 Bestia estúpida.
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
-Zombie chico:|Humano... comida favorita.|Yo... deleitar...
+Chico zombi:|Humano... comida favorita.|Yo... deleitar...
 #SET_MES_COLOR FFFFFF
 #LOAD_FACE 3 1
-¡El uso de palabras es inútil|contigo!...
+¡Es inútil hablar contigo!...
 #LOAD_FACE NULL
 #PERSONA 0 40 116 4 -50 -30
 #DEVIL_DEL 4
@@ -1282,23 +1282,23 @@ Zombie chico:|Humano... comida favorita.|Yo... deleitar...
 #DUNGEON_SET NEW EVENT
 #LOAD_FACE 3 1
 #SET_MES_COLOR FFFFFF
-¿¡...?!|Oh，si no es &0.
+¡¿...?!|Oh，si no es &0.
 #LOAD_FACE 3 1
 ¿Dónde están los otros?
 #LOAD_FACE 1 1
 Esto，la cosa es...
 #LOAD_FACE 0 1
-＞ &0 explica|todo a Nanjo.
+＞ &0 le explica|todo a Nanjo.
 #LOAD_FACE 3 1
 Ya veo...|Los otros están perdidos en|alguna parte de esta torre...
 #LOAD_FACE 3 1
-Si ese es el caso，entonces te|ayudaré a buscarlos.
+En ese caso，te ayudaré a|buscarlos.
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
-María:|¿Tal vez están yendo hacia la cima|tal y como lo hacemos nosotros?
+María:|Tal vez están yendo hacia la cima|tal y como lo hacemos nosotros.
 #SET_MES_COLOR FFFFFF
 #LOAD_FACE 7 1
-¡Entonces apurémonos cabros!
+¡Entonces apurémonos, cabros!
 #SET_NEW_CHAR 3
 #LOAD_FACE NULL
 ＞ ¡Nanjo se unió al equipo!
@@ -1404,26 +1404,26 @@ scenario3
 #SET_BOSS 2 0
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
-Nisroc:|Esto si que es algo raro...
+Nisroc:|Esto sí que es algo raro...
 ¿Humanos explorando la torre|anómala?...
 Je，je，je，je...
 Necesitarán el poder de los nueve|orbes para poder escapar. Orbes |como el que tenemos justo aquí.
 ¡De otro modo el transportador no|se activará!
 #SET_MES_COLOR FFFFFF
 #LOAD_FACE 7 1
-¿Y qué po'? ¡Solo tendremos que|obtenerlos todos y le diremos|chao a la torre esta!
+¿Y qué po'? ¡Sólo tenemos que|obtenerlos todos y le diremos|chao a la torre esta!
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
 Nisroc:|Cada persona puede activar el|poder de un orbe a la vez.
-Solo hay cuatro de ustedes，así|que escapar será imposible...
+Sólo hay cuatro de ustedes，así|que escapar será imposible...
 #SET_MES_COLOR FFFFFF
 #LOAD_FACE 7 1
 Bueno，¡suerte pa' nosotros|tenemos más amigos!
 #LOAD_FACE 3 1
-Están en la torre，en algún lado，|así que no hay problema alguno.
+Están en algún lado en la torre，|así que no hay ningún problema.
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
-Nisroc:|Asumiendo que ustedes puedan|sobrevivir，por supuesto...
+Nisroc:|Asumiendo que ustedes logren|sobrevivir，por supuesto...
 #LOAD_FACE NULL
 ¡Mueran，estúpidos humanos!
 #BATTLE_START
@@ -1447,12 +1447,12 @@ Nisroc:|¡Estúpidos humanos que no aceptan|su derrota! ¡Dejen sus|arrepentimie
 #LOAD_FACE NULL
 ＞ ¡Obtienes el poder del orbe del|trueno!
 #LOAD_FACE 3 1
-Qué extraña sensación...|¿¡Es este el poder del orbe?!...
+Qué extraña sensación...|¡¿Es este el poder del orbe?!...
 #LOAD_FACE 1 1
-Este es uno de los orbes que el|Sr. Igor nos había hablado...
+Este es uno de los orbes de los|que el Sr. Igor nos había|hablado...
 ¡Y junto al que obtuvimos de él，|tendríamos dos!
 #LOAD_FACE 7 1
-¡Cabros apurémonos y encontremos|los otros siete!
+¡Cabros, apurémonos y encontremos|los otros siete!
 #LOAD_FACE NULL
 #SET_MES_COLOR FFFF00
 María:|...
@@ -1553,7 +1553,7 @@ Qué parterre tan «beautiful»，|ji，ji...
 Ángel:|Oh，¿más humanos?|Esto sí que es inusual...
 #SELECT_CHOICE ¿Eres_amigo_de_esta_chica? NULL NULL 0 0 Sí|No_la_conozco
 #CHOICE 0
-Ángel:|Vaya，qué honesto.|¡Entonces tomaré sus vidas!
+Ángel:|Vaya，qué honesto.|¡En ese caso, tomaré sus vidas!
 #GOTO 1
 #CHOICE 1
 Ángel:|¡Qué mentira tan obvia!|¡La gente mentirosa merece ser|castigada!
@@ -1712,15 +1712,15 @@ Déjenme contarles sobre esta|gran exclusiva que tengo♪
 María:|Señor，ya lo sabemos todo...
 #SET_MES_COLOR FFFFFF
 #LOAD_FACE 6 1
-¿¡Queeeeé?!|Y trabajé tan duro para|obtenerla...
-Oh bueno，no tiene sentido llorar|por aquello que ya fue...
+¡¿Queeeeé?!|Y trabajé tan duro para|obtenerla...
+Oh, bueno. Lo hecho hecho está...
 #LOAD_FACE NULL
 ＞ ¡Brown se unió al equipo!
 #SET_NEW_CHAR 6
 #LOAD_FACE 6 1
-¿Hmm?...|Ey，tienes un equipo bien|interesante por ahí!
+¿Hmm?...|¡Ey，tienes un equipo bien|interesante por ahí!
 #LOAD_FACE 6 1
-¡Si necesitas ayuda solo dime!
+¡Si necesitas ayuda sólo dime!
 #LOAD_FACE 6 1
 ¡Estaré esperando en la entrada!
 #LOAD_FACE NULL
@@ -1824,12 +1824,12 @@ scenario6
 #SET_BOSS 3 1
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
-Haokah:|Parece ser que ya tienen en|posesión dos orbes...
-Pero no te dejaremos hacer uso deldispositivo en la cima de la torre.
+Haokah:|Parece que ya tienen en|posesión dos orbes...
+Pero no les dejaremos usar el|dispositivo en la cima|de la torre.
 No mientras El destructor esté en|movimiento...
 #SET_MES_COLOR FFFFFF
 #LOAD_FACE 0 1
-"El destructor?"
+¿"El destructor"?
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
 Haokah:|Ahora... ¡Muere!
@@ -1842,7 +1842,7 @@ Haokah:|Ahora... ¡Muere!
 #SET_BOSS 3 1
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
-Haokah:|¿Ustedes de nuevo? ¡Permitanme|darles su extremaunción!
+Haokah:|¿Ustedes de nuevo? ¡Permítanme|darles su extremaunción!
 #BATTLE_START
 #GOTO 2
 
@@ -1854,7 +1854,7 @@ Haokah:|¿Ustedes de nuevo? ¡Permitanme|darles su extremaunción!
 #LOAD_FACE NULL
 ＞ ¡Obtienes el poder del orbe del|viento!
 #LOAD_FACE 3 1
-¿A qué se habrá referido ese|demonio con "El destructor"?...
+¿A qué se refería ese demonio|con "El destructor"?...
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
 María:|...
@@ -1969,19 +1969,19 @@ scenario7
 #LOAD_FACE 0 1
 ...
 #LOAD_FACE 4 1
-¿Q-qué sucede? ¿P-por qué me|estás mirando de esa forma?
-Y-y-yo，¡no estaba asustada o algo|por el estilo!
+¿Q-Qué sucede? ¿P-Por qué me|estás mirando de esa forma?
+¡N-N-No estaba asustada ni nada|por el estilo!
 #LOAD_FACE 0 1
 ...
 #LOAD_FACE 4 1
-¡Tú，gran idiota!|¡Debiste haberme encontrado antes!
+¡Tú，grandísimo idiota!|¡Debiste haberme encontrado antes!
 #LOAD_FACE NULL
 ＞ ¡Ayase se unió al equipo!
 #SET_NEW_CHAR 4
 #LOAD_FACE 4 1
 Ya tienes a mucha gente contigo...
 #LOAD_FACE 4 1
-Estaré esperando en la entrada de|la torre，¡así que llamame si|necesitas ayuda!
+Estaré esperando en la entrada de|la torre，¡así que llámame si|necesitas ayuda!
 #LOAD_FACE NULL
 ＞ ¡Ayase fue a la entrada de la|torre!
 #DUNGEON_SET EXIST START
@@ -2102,7 +2102,7 @@ scenario8
 #BATTLE_SET 5|1|0|0|7|0 129|0|129|5
 #LOAD_FACE 5 1
 #SET_MES_COLOR FFFFFF
-¡Ey，ustedes! ¡Si siguen dejándose|estar en un lugar como este，solo|van a llegar a pudrir!
+¡Ey，ustedes! ¡Si siguen dejándose|estar en un lugar como este，se van a pudrir!
 ¡Vengan conmigo!|¡Y dejen atrás sus tristes vidas!
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
@@ -2110,10 +2110,10 @@ Policía zombi:|Uuuuu...
 #SET_MES_COLOR FFFFFF
 #LOAD_FACE 5 1
 Oh，¡ey &0!
-Este lugar es tan triste，creo que|hasta incluso nosotros nos|pudriremos si nos quedamos aquí.
+Este lugar es tan triste que creo que|hasta nosotros nos|pudriremos si nos quedamos aquí.
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
-Policía zombi:|N-nosotros... no importar...
+Policía zombi:|N-Nosotros... no importar...
 #SELECT_CHOICE Ustedes_..._hacer_algo...|_sobre_ella... NULL NULL 0 0 Seguro|No_hay_forma_alguna
 #CHOICE 0
 Policía Zombi:|Tú... humanos buenos. Pero|yo odiar humanos... ¡Yo comer|humanos!
@@ -2132,10 +2132,10 @@ Policía Zombi:|Yo... odiar... ¡humanos!
 #SET_MES_COLOR FFFFFF
 #LOAD_FACE NULL
 ＞ ¡Yukino se ha unido al equipo!
-＞ Ahora que te has reunido con todostus|amigos，todo lo que queda es obtener los orbes.
+＞ Ahora que te has reunido con todostus|amigos，todo lo que falta es obtener los orbes.
 #LOAD_FACE 5 1
-Ey... va a ser un infierno tener|que coordinar con tanta gente.
-Estaré esperando en la entrada de|la torre.|¡Llamame si necesitas ayuda!
+Ey... va a ser un infierno tener|que coordinar tanta gente.
+Estaré esperando en la entrada de|la torre.|¡Llámame si necesitas ayuda!
 #LOAD_FACE NULL
 ＞ ¡Yukino fue a la entrada de la|torre!
 #SET_NEW_CHAR 5
@@ -2245,10 +2245,10 @@ scenario9
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
 Viuda negra:|Jo，jo，jo，jo...|Escuchen，basura humana...
-Parece que hay un disturbio|dentro de la torre...
+Parece que hay disturbios|dentro de la torre...
 No es ninguno de ustedes，más bien|algo más...
-De todas formas，ustedes mocosos|deben de ser eliminados.
-¡Preparense para morir!
+De todas formas，ustedes mocosos|deben ser eliminados.
+¡Prepárense para morir!
 #BATTLE_START
 #GOTO 2
 
@@ -2269,9 +2269,9 @@ Viuda negra:|
 #SCR_FLASH C2FFFF
 #SET_MES_COLOR FFFFFF
 #LOAD_FACE NULL
-＞ Obtuviste el poder el orbe del|hielo!
+＞ ¡Obtuviste el poder del orbe del|hielo!
 #LOAD_FACE 0 1
-¿A qué se habrá referido ese|demonio con "disturbio"?...
+¿A qué se refería ese|demonio con "disturbios"?...
 
 #DUNGEON_SET EXIST SELECT
 #END
@@ -2385,8 +2385,8 @@ scenario10
 #SET_BOSS 3 3
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
-Potestad:|Vos，aquello que juré proteger，|habéis venido a robar mi orbe...
-Sois incapaz de comprender la|profundidad de las habilidades del|orbe... Muy bien，¡Os enviaré al|infierno!
+Potestad:|Vos，aquellos que juré proteger，|habéis venido a robar mi orbe...
+Sois incapaz de comprender la|profundidad de las habilidades del|orbe... Muy bien，¡os enviaré al|infierno!
 #BATTLE_START
 #GOTO 2
 
@@ -2398,7 +2398,7 @@ Sois incapaz de comprender la|profundidad de las habilidades del|orbe... Muy bie
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
 Potestad:|
-Sin importar cuanto lo intentés，|vuestro destino no cambiará|¡Desaparecé!
+Sin importar cuanto lo intentéis，|vuestro destino no cambiará.|¡Desapareced!
 #BATTLE_START
 #GOTO 2
 
@@ -2531,18 +2531,18 @@ Ustedes...
 ＞ ¡Te topaste con Reiji!
 #LOAD_FACE 8 1
 Jamás pensé que estarían aquí...
-¿Dónde rayos es esto?|Diganme todo lo que saben.
+¿Dónde rayos estamos?|Diganme todo lo que saben.
 #LOAD_FACE NULL
 ＞ ¡&0 explicó todo a|Reiji!
 #LOAD_FACE 8 1
-Lo entiendo...
+Entiendo...
 Antes de ir con Kandori tengo que|escapar de esta torre.
 Ya que no hay otro modo，iré con|ustedes.
 #LOAD_FACE NULL
 ＞ ¡Reiji se ha unido al equipo!
 #SET_NEW_CHAR 8
 #LOAD_FACE 8 1
-Primero que todo，no soy de andar|en multitudes.
+Primero que nada，no soy de andar|en multitudes.
 Ven a verme a la entrada una vez|que tengas menos gente contigo.
 #LOAD_FACE NULL
 ＞ ¡Reiji fue a la entrada de la|torre!
@@ -2667,8 +2667,8 @@ scenario12
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
 Vetal:|¡Jo!
-¡Ustedes humanos han hecho bien al|llegar tan lejos!
-Pero todo es por nada.|Lo siento，¡pero no voy a darles|mi orbe!
+¡Felicidades por haber|llegado tan lejos, humanos!
+Sin embargo, sus esfuerzos han sido en vano.|Lo siento，¡pero no voy a darles|mi orbe!
 #LOAD_FACE NULL
 #BATTLE_START
 #GOTO 2
@@ -2679,7 +2679,7 @@ Pero todo es por nada.|Lo siento，¡pero no voy a darles|mi orbe!
 #SET_BOSS 2 4
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
-Vetal:|¿Acaso ustedes no logran entender|lo diferente que somos en fuerza?
+Vetal:|¿Es que acaso no entienden|la diferencia entre nuestra fuerza?
 ¡Los haré pedazos!
 #BATTLE_START
 #GOTO 2
@@ -2697,7 +2697,7 @@ Vetal:|¿Acaso ustedes no logran entender|lo diferente que somos en fuerza?
 #ENDIF_CHAR
 #IF_CHAR 3
 #LOAD_FACE 3 1
-Aún tengo mis preocupaciones，pero|no hay de otra que seguir|adelante.
+Aún hay cosas que me preocupan，pero|no nos queda más que seguir|adelante.
 #ENDIF_CHAR
 #LOAD_FACE 0 1
 Debemos de regresar a nuestro|mundo lo más pronto posible...
@@ -2808,8 +2808,8 @@ scenario13
 #SET_BOSS 2 5
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
-Paimon:|Ja，ja，ja，ja，ja... Realmente|eres alguien especial al llegar|tan lejos...
-Tú que deseas el poder de los|últimos orbes，que están bajo|nuestra posesión.
+Paimon:|Ja，ja，ja，ja，ja... Debes ser alguien muy especial como para llegar|tan lejos...
+Tú, que deseas el poder de los|últimos orbes bajo|nuestra posesión.
 Ganesha:|Mortales chistosos...
 Uróboros:|Ustedes humanos son capaces de|muchas cosas，pero no son rivales|para dioses como nosotros.
 #SET_MES_COLOR FFFFFF
@@ -2821,7 +2821,7 @@ Ustedes demonios... ¿Proclaman|haberse convertido en dioses?
 
 #IF_CHAR 3
 #LOAD_FACE 3 1
-No subestimen a los humanos，|ustedes demonios que juegan a ser|Dios...
+No subestimen a los humanos，|demonios que juegan a ser|Dios...
 #ENDIF_CHAR
 
 #IF_CHAR 7
@@ -2846,7 +2846,7 @@ Qué gran perdida de tiempo...
 
 #IF_CHAR 5
 #LOAD_FACE 5 1
-¡Un demonio es un demonio!|¡Mírennos con desprecio y ustedes|pagarán las consecuencias!
+¡Un demonio es un demonio!|¡Mírennos con desprecio y |pagarán las consecuencias!
 #ENDIF_CHAR
 
 #IF_CHAR 6
@@ -2867,7 +2867,7 @@ Qué gran perdida de tiempo...
 #SET_BOSS 2 5
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
-Uróboros:|¡El cástigo por morir caerá sobre|los tontos!|¡Arrepientanse de sus actos en el más allá!
+Uróboros:|¡El castigo por morir caerá sobre|los tontos!|¡Arrepiéntanse de sus actos en el más allá!
 #BATTLE_START
 #GOTO 2
 
@@ -2945,7 +2945,7 @@ scenario14
 #SET_MES_COLOR FFFFFF
 #IF_CHAR 1
 #LOAD_FACE 1 1
-Estamos ya casi en la cima...|¡Enfoquémonos en seguir adelante!
+Ya casi estamos en la cima...|¡Enfoquémonos en seguir adelante!
 #ENDIF_CHAR
 #IF_CHAR 3
 #LOAD_FACE 3 1
@@ -2953,7 +2953,7 @@ Por mi parte me gustaría dejar|este lugar lo más pronto|posible...
 #ENDIF_CHAR
 #IF_CHAR 7
 #LOAD_FACE 7 1
-¡Cabros apurémonos y volvamo' a|casa!
+¡Cabros, apurémonos y volvamo' a|casa!
 #ENDIF_CHAR
 #IF_CHAR 2
 #LOAD_FACE 2 1
@@ -2973,12 +2973,12 @@ Necesito salir de este lugar para|poder enfrentar a Kandori con mis|propias mano
 #ENDIF_CHAR
 #IF_CHAR 6
 #LOAD_FACE 6 1
-¡El subir esta torre fue algo muy|fácil para alguien tan increible como yo!
+¡El subir esta torre fue muy|fácil para alguien tan increible como yo!
 #ENDIF_CHAR
 
 #LOAD_FACE NULL
 #SET_MES_COLOR FFFF00
-María:|Chicos，¡han estado súper bien!
+María:|Chicos，¡han estado genial!
 
 #DUNGEON_SET EXIST START
 #END
@@ -3089,14 +3089,14 @@ scenario15
 ＞ De repente，¡los orbes|empezaron a brillar!
 #IF_CHAR 6
 #LOAD_FACE 6 1
-¿¡Q-qué demonios?!|¿¡Qué está sucediendo?!
+¡¿Q-Qué demonios?!|¿¡Qué está sucediendo?!
 #ENDIF_CHAR
 #IF_CHAR 1
 #LOAD_FACE 1 1
-¡Miren!|¿¡Acaso estos son nuestros amigos|que estaban esperando en la|entrada?!
+¡Miren!|¿¡Acaso son nuestros amigos|que estaban esperando en la|entrada?!
 #ENDIF_CHAR
 #LOAD_FACE 0 1
-...!!!
+¡¡¡...!!!
 #LOAD_FACE NULL
 ＞ ¡Tus amigos se alejaron de la|luz!
 #LOAD_FACE 1 1
@@ -3108,34 +3108,34 @@ Was this...
 #LOAD_FACE 2 1
 Parece ser que por fin hemos|llegado a nuestra meta.
 #LOAD_FACE 5 1
-Muy bien，¡Hora de regresar!
+Muy bien. ¡Hora de regresar!
 #LOAD_FACE 6 1
-¡Vamos mierda!
+¡Vamos, mierda!
 #LOAD_FACE 1 1
-¿Todos listos?|¡Entonces activemos el|transportador!
+¿Todos listos?|¡Entonces, activemos el|transportador!
 #LOAD_FACE NULL
 ＞ ¡&0 y sus amigos|elevaron los orbes en el cielo!
 #PLAY_SE 18
 #SCR_FLASH FFFFFF
-＞ ¡Estos empezaron a emitir una|misteriosa luz，y después un|destello cegador!
+＞ ¡Estos empezaron a emitir una|misteriosa luz，y después, un|destello cegador!
 #LOAD_FACE 8 1
 ¡Es muy brillante!
 #LOAD_FACE 3 1
 Pero podemos ir a casa ahora...
 #PLAY_SE 18
 #SCR_FLASH FFFF00
-¿¡Ah...?!
+¡¿Ah...?!
 #LOAD_FACE NULL
 ＞ ¡Fuiste empujado por una fuerza|desconocida!
 #LOAD_FACE 3 1
-¿Q-qué demonios?...
+¿Q-Qué demonios?...
 #LOAD_FACE NULL
 #BATTLE_SET FIGHT 142|0
 #SET_MES_COLOR FFFF00
 María:|Je，je，je，je...
 #LOAD_FACE 1 1
 #SET_MES_COLOR FFFFFF
-¿¡?!
+¡¿?!
 María...
 #LOAD_FACE NULL
 #SET_MES_COLOR FFFF00
@@ -3160,35 +3160,35 @@ Ja，ja，ja，ja!
 #LOAD_FACE NULL
 #SET_MES_COLOR FFFF00
 María:|Muy bien...
-Te lo diré，como agradecimiento|por habermer llevado al|transportador.
-Para mí，derrotar a esos demonios|y obtener los orbes sería muy|fácil.
-Pero no podía burlar la regla de|una persona por orbe...
-Eso era problematico，así que|esperé y esperé por una|oportunidad.
-¡Y justo todos ustedes|aparecieron!
+Te lo diré como agradecimiento|por habermer llevado al|transportador.
+Para mí，derrotar a esos demonios|y obtener los orbes era muy|fácil,
+pero no podía burlar la regla de|una persona por orbe...
+Eso me complicaba，así que|esperé y esperé por una|oportunidad.
+¡Y justo entonces, todos ustedes|aparecieron!
 ¿Por qué no aprovecharme de ello?|Je，je，je，je...
 #LOAD_FACE 4 1
 #SET_MES_COLOR FFFFFF
-¿Por qué...? ¿¡Por qué quieres ir|tanto a la tierra?!
+¿Por qué...? ¡¿Por qué quieres ir|tanto a la tierra?!
 #LOAD_FACE NULL
 #SET_MES_COLOR FFFF00
 María:|Porque estaba aburrida...
 #LOAD_FACE 0 1
 #SET_MES_COLOR FFFFFF
-¿¡...?!
+¡¿...?!
 #LOAD_FACE NULL
 #SET_MES_COLOR FFFF00
 María:|Vivir en esta torre es|extremadamente aburrido.
 Pero el mundo humano suena tan，|tan divertido，¿no?
 Quiero destruirlo todo...
-Ustedes son los únicos que llegan|a divertirse，eso no es justo...
-Quiero divertirme también.
+Ustedes son los únicos que se divierten，eso no es justo...
+Yo quiero divertirme también.
 #LOAD_FACE 1 1
 #SET_MES_COLOR FFFFFF
 ¡No te dejaremos hacer eso!
 #LOAD_FACE NULL
 #SET_MES_COLOR FFFF00
 María:|Oh，qué pena...
-Si tratan de deterneme，no tendré|de otra que matarlos...
+Si tratan de deterneme，no me dejan más opción que matarlos...
 Je，je，je，je...
 #PLAY_BGM 2
 #BATTLE_START
@@ -3204,7 +3204,7 @@ Je，je，je，je...
 ＞ ¡Tus amigos se alejaron de la|luz!
 #BATTLE_SET FIGHT 142|0
 #SET_MES_COLOR FFFF00
-María:|Ustedes simplemente no pueden|aprender su lección，¿no?|Je，je，je...
+María:|Ustedes nunca|aprenden su lección，¿no?|Je，je，je...
 Bien. Los derrotaré las veces que|sean necesarias.
 ¡Voy a matarlos a todos!
 #PLAY_BGM 2
@@ -3218,7 +3218,7 @@ Bien. Los derrotaré las veces que|sean necesarias.
 #SET_MES_COLOR FFFF00
 María:|Gh，no puedo creer que hayan|llegado tan lejos...
 No me gusta mostrar mi verdadera|forma，pero parece que tendré que|usar todo mi poder para poder|ganar...
-Por tan fea que sea esa forma...
+Por más fea que sea esa forma...
 #SCR_FLASH FF0000
 El destructor:|Shh... Sssshhhhhhhrrrr....
 #BATTLE_SET FIGHT 143|0
@@ -3250,7 +3250,7 @@ Cabros，¡miren! ¡La luz del|transportador se está yendo!
 #LOAD_FACE NULL
 #SET_MES_COLOR FFFFFF
 Y así，&0 y sus amigos|fueron capaces de escapar de la|torre anómala y regresar a su|mundo...
-Pero apenas tiene el tiempo de |celebrar，porque su nueva batalla|está por comenzar...
+Pero apenas tienen tiempo de |celebrar，porque su nueva batalla|está por comenzar...
 Y así，la historia regresa a los|eventos de "Megami Ibunroku Persona"...
 ¡Esta historia continuará!...
 #END
