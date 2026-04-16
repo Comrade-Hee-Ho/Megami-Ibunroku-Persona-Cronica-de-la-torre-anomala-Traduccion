@@ -35,7 +35,7 @@ No puedo hacer mucho por tí，pero|te prometo que nuestro tiempo|juntos será e
 Mmm... Creo que el abuelo de tu|madre es tu ángel guardián.|¡Es realmente fuerte!
 #END
 #NO 3
-Si haces lo que digo，|¡milagrosamente se levantará una estatua de bronce tuya!
+Si haces lo que digo，|¡milagrosamente se levantará una|estatua de bronce tuya!
 #END
 #NO 4
 Muchos artistas han sido|cautivados por ti，¡ahora entiendopor qué!
@@ -302,7 +302,7 @@ Esa cara sí que asusta...
 ¿Q-Qué demo...? No entiendo a qué quieres llegar...
 #END
 #NO 9
-¡Conque por eso necesitas mi ayuda!
+¡Conque por eso necesitas mi|ayuda!
 #END
 #NO 10
 Yo... creo que estoy enamorándome|de ti...
@@ -341,7 +341,7 @@ Je，je，je...|Fue lindo conocerte.
 #SELECT ¡Solo_dime_lo_que_quieres! NULL NULL 0 0 Quiero_una_carta.|Quiero_un_objeto.|Quiero_que_te_vayas.
 #END
 #NO 21
-¡Aja，ja，ja，ja，ja，ja! Realmente|eres un prodigio en complacer a|demonios，¿no es así?
+¡Aja，ja，ja，ja，ja，ja!|Realmente eres un prodigio en|complacer a demonios，¿no es así?
 #END
 #NO 22
 ¡Estoy harto de negociar contigo!
@@ -350,7 +350,7 @@ Je，je，je...|Fue lindo conocerte.
 ¡Cada segundo que paso contigo es|un segundo que no podré recuperar!
 #END
 #NO 24
-Ya posees mi carta，¿no?|Conviértela en un hermoso Persona，¿puedes?
+Ya posees mi carta，¿no?|Conviértela en un hermoso|Persona，¿puedes?
 #END
 #NO 25
 Aquí está mi carta. Conviértela enun bello y musculoso Persona.
@@ -415,7 +415,7 @@ Hmm... Ya veo...
 #SELECT Mis_necesidades_serán_cumplidas|con_una_piedra_vital. NULL NULL 1 0 SÍ|NO
 #END
 #NO 17
-#SELECT Sé_lo_que_vos_piensa.|Que_la_bellesa_de_este|&0_encaja_conmigo，|¿No_es_así? NULL NULL 1 0 SÍ|NO
+#SELECT Sé_lo_que_vos_pensais.|Que_la_bellesa_de_este:|&0_encaja_conmigo，¿no_es_así? NULL NULL 1 0 SÍ|NO
 #END
 #NO 18
 ¡Qué ocación tan encantadora!|Todo gracias a vos...
@@ -427,7 +427,7 @@ Qué aura tan malvada tenés...|¿Qué haré?...
 #END
 #NO 20
 ¡No tengo tiempo para esto!
-#SELECT ¡Si_vos_querés_algo，entonces|digalo! NULL NULL 0 0 Quiero_una_carta.|Quiero_un_objeto.|Quiero_que_te_vayas.
+#SELECT ¡Si_vos_queréis_algo，entonces|digalo! NULL NULL 0 0 Quiero_una_carta.|Quiero_un_objeto.|Quiero_que_te_vayas.
 #END
 #NO 21
 ¡Qué ocación tan encantadora!|Usted se ha robado mi corazón...
@@ -551,7 +551,7 @@ No hay garantía de que esto no|sea una trampa... Es una decisión difícil...
 ¿Cómo se supone me deba sentir|por esto? ¿Feliz o qué?
 #END
 #NO 3
-No te burles de los adultos，¡¿entendiste?!
+No te burles de los adultos，|¡¿entendiste?!
 #END
 #NO 4
 ¡¿Tienes la osadía de tratar de|engañar a un demonio?!
@@ -593,7 +593,7 @@ Ey，¿puedes oír mi petición?
 #SELECT ¡Dame_una_piedra_vital|en_este_instante! NULL NULL 1 0 SÍ|NO
 #END
 #NO 17
-#SELECT ¡Tú，tú_tienes_una:|&0!|¡Dámelo! NULL NULL 1 0 SÍ|NO
+#SELECT ¡Tú，tú_tienes:|&0!_¡Dámelo! NULL NULL 1 0 SÍ|NO
 #END
 #NO 18
 Me siento algo generoso hoy.
@@ -907,7 +907,7 @@ Entiendo que quieras mi atención.
 ¿Intentas hacer que me interese|en ti?
 #END
 #NO 3
-¡Desde que la humanidad se redimióante él ellos se han vuelto|insolentes! ¡Eso debe ser|corregido!
+¡Desde que la humanidad se redimióante él, ellos se han vuelto|insolentes! ¡Eso debe ser|corregido!
 #END
 #NO 4
 ¡Qué vulgar! ¡Esto es tan|espantoso que creo que me voy a|desmayar!
@@ -956,7 +956,7 @@ Este encuentro debe haber sido|el destino...
 #SELECT Escucharé_tus_deseos. NULL NULL 0 0 Quiero_una_carta.|Quiero_un_objeto.|Quiero_que_te_vayas.
 #END
 #NO 19
-Ya veo...|Entiendo la forma en la que piensas.
+Ya veo...|Entiendo la forma en la que|piensas.
 #SELECT ¿Qué_es_lo_que_quieres_de_mí? NULL NULL 0 0 Quiero_una_carta.|Quiero_un_objeto.|Quiero_que_te_vayas.
 #END
 #NO 20

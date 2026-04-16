@@ -32,7 +32,7 @@ Uno de ellos es el Persona|activo，el cual puede ser invocado|en combate.
 Los otros dos están en espera，y|deben ser activados antes de|poder ser usados.
 El Persona activo le da al usuario|un montón de habilidades.
 La resistencia a la magia depende|enteramente del Persona activo.|Además，podrá mejorar tus|capacidades físicas.
-En ESTADO puedes ver tus|parámetros físicos que se muestran|en barras. Las porciones|rojas son mejoras garantizadas por tu Persona activo.
+En ESTADO puedes ver tus|parámetros físicos que se muestran|en barras. Las porciones rojas son|mejoras garantizadas por tu|Persona activo.
 Cuando un Persona es creado，nadie|es capaz de usar todo su poder.
 Mientras más lo uses en combate，|más de su poder saldrá a la luz.
 Además de un incremento de poder，|más habilidades adicionales|estarán disponibles.
@@ -50,7 +50,7 @@ Es hora de liberar el lazo|de &0...
 Este seguirá luchando contigo bajo|esta nueva forma que te presento:|&1.
 #END
 #NO 11
-#SELECT &0...|¿Es_este_Persona_correcto? Atrás NULL 0 1 SÍ|NO
+#SELECT &0...|¿Es_este_Persona_el_que_quieres? Atrás NULL 0 1 SÍ|NO
 #NO 12
 Tu nivel es demasiado bajo.
 #END
@@ -2102,15 +2102,15 @@ scenario8
 #BATTLE_SET 5|1|0|0|7|0 129|0|129|5
 #LOAD_FACE 5 1
 #SET_MES_COLOR FFFFFF
-¡Ey，ustedes! ¡Si siguen dejándose|estar en un lugar como este，se van a pudrir!
+¡Ey，ustedes! ¡Si siguen dejándose|estar en un lugar como este，se|van a pudrir!
 ¡Vengan conmigo!|¡Y dejen atrás sus tristes vidas!
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
 Policía zombi:|Uuuuu...
 #SET_MES_COLOR FFFFFF
 #LOAD_FACE 5 1
-Oh，¡ey &0!
-Este lugar es tan triste que creo que|hasta nosotros nos|pudriremos si nos quedamos aquí.
+Oh，¡&0!
+Este lugar es tan triste que creo que hasta nosotros nos|pudriremos si nos quedamos aquí.
 #SET_MES_COLOR FFFF00
 #LOAD_FACE NULL
 Policía zombi:|N-Nosotros... no importar...
@@ -2132,9 +2132,9 @@ Policía Zombi:|Yo... odiar... ¡humanos!
 #SET_MES_COLOR FFFFFF
 #LOAD_FACE NULL
 ＞ ¡Yukino se ha unido al equipo!
-＞ Ahora que te has reunido con todostus|amigos，todo lo que falta es obtener los orbes.
+＞ Ahora que te has reunido con|todos tus amigos，todo lo que falta|es obtener los orbes.
 #LOAD_FACE 5 1
-Ey... va a ser un infierno tener|que coordinar tanta gente.
+*suspiro* Va a ser un infierno|tener que coordinar tanta gente.
 Estaré esperando en la entrada de|la torre.|¡Llámame si necesitas ayuda!
 #LOAD_FACE NULL
 ＞ ¡Yukino fue a la entrada de la|torre!
@@ -2269,7 +2269,7 @@ Viuda negra:|
 #SCR_FLASH C2FFFF
 #SET_MES_COLOR FFFFFF
 #LOAD_FACE NULL
-＞ ¡Obtuviste el poder del orbe del|hielo!
+＞ ¡Obtuviste el poder del orbe|del hielo!
 #LOAD_FACE 0 1
 ¿A qué se refería ese|demonio con "disturbios"?...
 
